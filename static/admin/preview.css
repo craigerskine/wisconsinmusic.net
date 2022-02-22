@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap');
 
-/* scaled fonts */
-html { font-size: 16px; }
-@media screen and (min-width: 320px) { html { font-size: calc(16px + 6 * ((100vw - 320px) / 680)); } }
-@media screen and (min-width: 1000px) { html { font-size: 22px; } }
-
-html { font-family: 'Raleway', sans-serif; -webkit-font-smoothing: antialiased; }
+html { font-size: 16px; font-family: 'Raleway', sans-serif; -webkit-font-smoothing: antialiased; }
+body { line-height: 1.5; }
 h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,table,hr { margin-top: 1.5rem; margin-bottom: 1.5rem; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
+h1,h2,h3,h4,h5,h6 { font-weight: 900; }
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 ul ul,ul ol,ol ol,ol ul { margin-top: 0; margin-bottom: 0; }
 blockquote { margin-left: 1.5rem; border-left: 2px solid currentColor; padding: 1.5rem; background: rgba(128,128,128,.33); }
 blockquote p:first-child { margin-top: 0; }
 blockquote p:last-child { margin-bottom: 0; }
+
+/* scaled fonts */
+@media screen and (min-width: 320px) { html { font-size: calc(16px + 6 * ((100vw - 320px) / 680)); } }
+@media screen and (min-width: 1000px) { html { font-size: 22px; } }

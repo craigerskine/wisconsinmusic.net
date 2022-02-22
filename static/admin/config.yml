@@ -6,6 +6,20 @@ media_folder: static/assets/img
 public_folder: /assets/img
 
 collections:
+  - name: 'Reviews'
+    label: 'reviews'
+    label_singular: 'Review'
+    folder: 'content/reviews'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Venue', name: 'venue', widget: 'string' }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/reviews' }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'] }
   - name: 'bios'
     label: 'Bios'
     label_singular: 'Bio'
@@ -15,7 +29,7 @@ collections:
     slug: '{{slug}}' #'{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/assets/img/bios' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/bios' }
       - { label: 'Website', name: 'website', widget: 'string', required: false }
       - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
       - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
