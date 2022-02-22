@@ -15,7 +15,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/reviews' }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false }
       - { label: 'Date', name: 'date', widget: 'date', default: 'YYYY/MM/DD', format: 'YYYY/MM/DD', date_format: 'YYYY/MM/DD' }
       - { label: 'Venue', name: 'venue', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
@@ -29,7 +29,7 @@ collections:
     slug: '{{slug}}' #'{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Name', name: 'title', widget: 'string' }
-      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/bios' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, choose_url: false }
       - { label: 'Website', name: 'website', widget: 'string', required: false }
       - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
       - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }

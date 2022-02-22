@@ -5,12 +5,12 @@ date: '2015-02-19'
 venue: Resch Center
 location: Green Bay, WI
 images:
-- "/assets/img/reviews/2015-02-19-mc-01.jpg"
-- "/assets/img/reviews/2015-02-19-mc-02.jpg"
-- "/assets/img/reviews/2015-02-19-mc-03.jpg"
+- "/assets/img/review_2015-02-19-mc-01.jpg"
+- "/assets/img/review_2015-02-19-mc-02.jpg"
+- "/assets/img/review_2015-02-19-mc-03.jpg"
 ---
 
-![image](/assets/img/reviews/2015-02-19-mc-01.jpg)
+![image](/assets/img/review_2015-02-19-mc-01.jpg)
 
 On Thursday night, the 19th of February, the Last Vegas band walked onstage of the Resch Center in Green Bay, WI. Dressed in leather like an 80's glam/rock band, Last Vegas was the first underlining group for Motley Crue. The concert started on time, despite the fact that only about 60% of fans had showed up for the start.
 
@@ -36,7 +36,7 @@ Serving as the backbone of Theory of a Deadman, bass player Dean Back kept the b
 
 While Theory of a Deadman wasn't the headlining act, they definitely entertained fans who came to listen to Hinder and Motley Crue, and maybe even won over a few of them. They put on a great show, and afterwards they even came out to sign autographs for the fans for a little while. With the combination of heavy-metal grind numbers and soft, melodic pop-rock tunes, along with lyrics you can relate to and laugh at, they made their mark in Green Bay.
 
-![image](/assets/img/reviews/2015-02-19-mc-02.jpg)
+![image](/assets/img/review_2015-02-19-mc-02.jpg)
 
 After the bar was set high by Theory, Hinder walked out as the last group before Motley Crue that night. Hinder, who is probably best known for songs like "Lips of an Angel" and "Better Than Me," started with some hard-rock jams. They played the title track of their album "Take it to the Limit" and, as a nice little surprise, Motley Crue guitarist Mick Mars came out and helped them with it. 
 
@@ -62,4 +62,4 @@ Overall, a great rock show. Again, Motley Crue is about over the top and in your
 - Brett Christensen
 - all photos courtesy of the Resch Center/PMI
 
-![image](/assets/img/reviews/2015-02-19-mc-03.jpg)
+![image](/assets/img/review_2015-02-19-mc-03.jpg)

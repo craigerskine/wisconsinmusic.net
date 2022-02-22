@@ -1,7 +1,7 @@
 ---
 title: Brett Christensen
 slug: brett-christensen
-avatar: '/assets/img/bios/author-brett.jpg'
+avatar: '/assets/img/_bio_brett.jpg'
 website: https://wisconsinmusic.net/
 facebook: https://facebook.com/brettdavidchristensen
 ---

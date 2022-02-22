@@ -1,7 +1,7 @@
 ---
 title: Craig Erskine
 slug: craig-erskine
-avatar: '/assets/img/bios/author-craig.jpg'
+avatar: '/assets/img/_bio_craig.jpg'
 website: https://craigerskine.com/
 twitter: https://twitter.com/qrayg/
 youtube: https://youtube.com/c/qrayg/
