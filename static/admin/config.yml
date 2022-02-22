@@ -6,16 +6,17 @@ media_folder: static/assets/img
 public_folder: /assets/img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'bios'
+    label: 'Bios'
+    label_singular: 'Bio'
+    folder: 'content/bios'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    slug: {{slug}} #'{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Website', name: 'soc-wb', widget: 'string', required: false }
+      - { label: 'Twitter', name: 'soc-tw', widget: 'string', required: false }
+      - { label: 'Facebook', name: 'soc-fb', widget: 'string', required: false }
+      - { label: 'YouTube', name: 'soc-yt', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
