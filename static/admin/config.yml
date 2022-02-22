@@ -6,8 +6,8 @@ media_folder: static/assets/img
 public_folder: /assets/img
 
 collections:
-  - name: 'Reviews'
-    label: 'reviews'
+  - name: 'reviews'
+    label: 'Reviews'
     label_singular: 'Review'
     folder: 'content/reviews'
     format: 'frontmatter'
@@ -15,11 +15,11 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/reviews' }
       - { label: 'Date', name: 'date', widget: 'date' }
       - { label: 'Venue', name: 'venue', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false, media_folder: '/static/assets/img/reviews' }
-      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'] }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'], media_folder: '/static/assets/img/reviews' }
   - name: 'bios'
     label: 'Bios'
     label_singular: 'Bio'
