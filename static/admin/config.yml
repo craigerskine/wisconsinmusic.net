@@ -12,7 +12,7 @@ collections:
     folder: 'content/bios'
     format: 'frontmatter'
     create: true
-    slug: {{slug}}
+    slug: '{{slug}}' #'{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Website', name: 'soc-wb', widget: 'string', required: false }
