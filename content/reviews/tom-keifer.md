@@ -4,10 +4,7 @@ slug: tom-keifer
 date: '2016-09-08'
 venue: Green Bay Distillery
 location: Ashwaubenon, WI
-images:
-- "/assets/img/review_2016-09-08-tk-mast.jpg"
-- "/assets/img/review_2016-09-08-tk-01.jpg"
-- "/assets/img/review_2016-09-08-tk-02.jpg"
+image: '/assets/img/review_2016-09-08-tk-mast.jpg'
 ---
 
 Although a Thursday night might not be the best time to catch a live show, that didn't stop the 500+ in attendance from highly enjoying the *Tom Keifer* concert at the *Green Bay Distillery* on *September 8th, 2016*. Not only did music lovers get to hear the many Cinderella hits, they also were treated to great music from the two opening acts.

@@ -4,17 +4,7 @@ slug: femmes-of-rock-lita-ford
 date: '2018-01-13'
 venue: Weidner Center
 location: Green Bay
-images:
-- "/assets/img/review_forlive1_1.jpg"
-- "/assets/img/review_litalive1.jpg"
-- "/assets/img/review_litalive2.jpg"
-- "/assets/img/review_asorlive1.jpg"
-- "/assets/img/review_litalive3.jpg"
-- "/assets/img/review_forlive6.jpg"
-- "/assets/img/review_forlive2.jpg"
-- "/assets/img/review_forlive3.jpg"
-- "/assets/img/review_forlive4.jpg"
-- "/assets/img/review_forlive5.jpg"
+image: '/assets/img/review_forlive1_1.jpg'
 ---
 
 Those in attendance at the *Weidner Center* on January 13th for the *Femmes of Rock / Lita Ford* concert were treated to an big budget, Las Vegas-style show for the price of what they would have paid to see their favorite bands back in eighties at the *Brown County Arena*. But here, decades later, things are different: the venue and sound are better, the lighting is better, and let's throw in some fog, lasers, pyro and fireworks for good measure. If you missed this show, you missed out!

@@ -4,12 +4,7 @@ slug: kiss
 date: '2016-08-10'
 venue: Resch Center
 location: Green Bay, WI
-images:
-- "/assets/img/review_2016-08-10-kiss-mast.jpg"
-- "/assets/img/review_2016-08-10-kiss-01.jpg"
-- "/assets/img/review_2016-08-10-kiss-02.jpg"
-- "/assets/img/review_2016-08-10-kiss-03.jpg"
-- "/assets/img/review_2016-08-10-kiss-04.jpg"
+image: '/assets/img/review_2016-08-10-kiss-mast.jpg'
 ---
 
 ![image](/assets/img/review_2016-08-10-kiss-01.jpg)

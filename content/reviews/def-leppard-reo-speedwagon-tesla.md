@@ -4,11 +4,7 @@ slug: def-leppard-reo-speedwagon-tesla
 date: '2016-08-06'
 venue: Veterans Memorial Coliseum
 location: Madison, WI
-images:
-- "/assets/img/review_2016-08-06-dl-01.jpg"
-- "/assets/img/review_2016-08-06-dl-02.jpg"
-- "/assets/img/review_2016-08-06-dl-03.jpg"
-- "/assets/img/review_2016-08-06-dl-04.jpg"
+image: '/assets/img/review_2016-08-06-dl-01.jpg'
 ---
 
 Although I was attending this concert in 2016 to see Tesla, REO Speedwagon and Def Leppard, it sure felt like 1980-something. Here I was in the Veterans Memorial Coliseum to see bands that have had their greatest years in the 80's. The Coliseum, which probably looks exactly like it did three decades ago, actually felt like a time machine warping me back to the days of excess. Walking past the line of women to use the rest-room was total Dèjá Vu: Long hair, Def Leppard shirts, and some smoking (indoors) as they wait. Yes, the night was filled with nostalgia.

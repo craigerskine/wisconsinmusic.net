@@ -4,11 +4,7 @@ slug: rival-sons
 date: '2017-05-13'
 venue: The Sand Lot
 location: Green Bay, WI
-images:
-- "/assets/img/review_1rivalsons2017.jpg"
-- "/assets/img/review_2rivalsons2017.jpg"
-- "/assets/img/review_3rivalsons2017.jpg"
-- "/assets/img/review_4rivalsons2017.jpg"
+image: '/assets/img/review_1rivalsons2017.jpg'
 ---
 
 A Rival Sons album showcases their take on rock - warranting comparisons to Led Zeppelin, the Doors, or contemporaries like The Raconteurs. But don't worry about Rival Sons' ability to set themselves apart - just catch one of their shows.

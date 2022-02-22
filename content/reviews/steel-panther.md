@@ -4,11 +4,7 @@ slug: steel-panther
 date: '2016-05-20'
 venue: Sandlot Entertainment Complex
 location: Green Bay, WI
-images:
-- "/assets/img/review_2016-05-20-sp-01.jpg"
-- "/assets/img/review_2016-05-20-sp-02.jpg"
-- "/assets/img/review_2016-05-20-sp-03.jpg"
-- "/assets/img/review_2016-05-20-sp-04.jpg"
+image: '/assets/img/review_2016-05-20-sp-01.jpg'
 ---
 
 ![image](/assets/img/review_2016-05-20-sp-01.jpg)

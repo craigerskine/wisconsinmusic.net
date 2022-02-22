@@ -4,10 +4,7 @@ slug: barry-manilow
 date: '2016-04-21'
 venue: Resch Center
 location: Green Bay, WI
-images:
-- "/assets/img/review_2016-04-21-bm-01.jpg"
-- "/assets/img/review_2016-04-21-bm-02.jpg"
-- "/assets/img/review_2016-04-21-bm-03.jpg"
+image: '/assets/img/review_2016-04-21-bm-01.jpg'
 ---
 
 ![image](/assets/img/review_2016-04-21-bm-01.jpg)

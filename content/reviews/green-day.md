@@ -4,11 +4,7 @@ slug: green-day
 date: '2017-03-30'
 venue: Resch Center
 location: Green Bay, WI
-images:
-- "/assets/img/review_greendaymast.jpg"
-- "/assets/img/review_greenday1.jpg"
-- "/assets/img/review_greenday2_1.jpg"
-- "/assets/img/review_greenday3.jpg"
+image: '/assets/img/review_greendaymast.jpg'
 ---
 
 _'Green Day in Green Bay!!!'_ Any time there was a lull in the excitement from the crowd, that's all singer *Billie Joe Armstrong* would have to yell. It was always met with a roar of approval. It's hard to believe that in the thirty-one years that the band has existed that this was their first time in Titletown. Their fans were more than ready to welcome them.

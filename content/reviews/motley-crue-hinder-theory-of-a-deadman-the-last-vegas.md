@@ -4,10 +4,7 @@ slug: motley-crue-hinder-theory-of-a-deadman-the-last-vegas
 date: '2015-02-19'
 venue: Resch Center
 location: Green Bay, WI
-images:
-- "/assets/img/review_2015-02-19-mc-01.jpg"
-- "/assets/img/review_2015-02-19-mc-02.jpg"
-- "/assets/img/review_2015-02-19-mc-03.jpg"
+image: '/assets/img/review_2015-02-19-mc-01.jpg'
 ---
 
 ![image](/assets/img/review_2015-02-19-mc-01.jpg)

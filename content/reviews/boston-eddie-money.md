@@ -4,11 +4,7 @@ slug: boston-eddie-money
 date: '2016-05-22'
 venue: Resch Center
 location: Green Bay, WI
-images:
-- "/assets/img/review_2016-05-22-bem-01.jpg"
-- "/assets/img/review_2016-05-22-bem-02.jpg"
-- "/assets/img/review_2016-05-22-bem-03.jpg"
-- "/assets/img/review_2016-05-22-bem-04.jpg"
+image: '/assets/img/review_2016-05-22-bem-01.jpg'
 ---
 
 ![image](/assets/img/review_2016-05-22-bem-01.jpg)
