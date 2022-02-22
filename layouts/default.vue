@@ -19,8 +19,8 @@
         by <a href="https://craigerskine.com/" class="mx-1 text-current transition">Craig Erskine</a>
       </div>
     </footer>
-    <figure style="background-image: url('/assets/img/placeholder.jpg')" class="bg-cover opacity-25 fixed inset-0 z-[-1]"></figure>
-    <figure class="dark:bg-gradient-to-b dark:from-transparent dark:via-transparent dark:to-gray-800 dark:fixed dark:inset-0 dark:z-[-1]" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></figure>
+    <figure style="background-image: url('/assets/img/_mast-placeholder.jpg')" class="bg(cover center fixed) opacity-25 fixed inset-0 z-[-1]"></figure>
+    <figure class="bg-gradient-to-b from-transparent via-transparent to-gray-800 fixed inset-0 z-[-1]" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></figure>
   </div>
 </template>
 
