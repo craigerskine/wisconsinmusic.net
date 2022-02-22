@@ -11,12 +11,13 @@ collections:
     label_singular: 'Bio'
     folder: 'content/bios'
     format: 'frontmatter'
-    create: true
+    create: false
     slug: '{{slug}}' #'{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Website', name: 'soc-wb', widget: 'string', required: false }
-      - { label: 'Twitter', name: 'soc-tw', widget: 'string', required: false }
-      - { label: 'Facebook', name: 'soc-fb', widget: 'string', required: false }
-      - { label: 'YouTube', name: 'soc-yt', widget: 'string', required: false }
+      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, media_folder: '/assets/img/bios' }
+      - { label: 'Website', name: 'website', widget: 'string', required: false }
+      - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
+      - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
+      - { label: 'YouTube', name: 'youtube', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -1,5 +1,5 @@
 ---
-name: Craig Erskine
+title: Craig Erskine
 slug: craig-erskine
 avatar: '/assets/img/bios/author-craig.jpg'
 website: https://craigerskine.com/
