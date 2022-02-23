@@ -34,7 +34,7 @@ Did A&M still have the masters tapes for it?
 **WM:**
 Your charity concert in *Green Bay* also features *Warrant* and *REO Speedwagon*. Have you ever shared a stage with either band before?
 
-> **DB:** Yes, we've shared many stages with *REO* through the years. We were the support act for the &lt;i&gt;Hi Infidelity&lt;/i&gt; tour when they were the biggest band in the world back in the eighties. So we are looking forward to it. Like I said, it wasn't in our plan to be doing this with our tour schedule. But we found out about all the great charities involved in this show and we had to do it!
+> **DB:** Yes, we've shared many stages with *REO* through the years. We were the support act for the _Hi Infidelity_ tour when they were the biggest band in the world back in the eighties. So we are looking forward to it. Like I said, it wasn't in our plan to be doing this with our tour schedule. But we found out about all the great charities involved in this show and we had to do it!
 
 **WM:**
 What's on the horizon for *38 Special*?
