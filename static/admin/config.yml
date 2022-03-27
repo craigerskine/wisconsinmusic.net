@@ -12,7 +12,7 @@ collections:
     folder: 'content/reviews'
     format: 'frontmatter'
     create: true
-    slug: '{{slug}}'
+    slug: '{{slug}}-{{year}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false }
@@ -26,7 +26,7 @@ collections:
     folder: 'content/interviews'
     format: 'frontmatter'
     create: true
-    slug: '{{slug}}'
+    slug: '{{slug}}-{{year}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false }
