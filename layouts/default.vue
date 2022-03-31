@@ -1,7 +1,8 @@
 <template>
   <div class="page min-h-screen flex flex-col">
-    <header :class="['py-8 w-full', this.$route.name === 'index' ? '' : '']">
-      <nav class="container mx-auto px-4 w-full flex-none">
+    <header :class="['py-8 w-full relative', this.$route.name === 'index' ? 'bg(gray-900 opacity-25)' : '']">
+      <b class="bg-gradient-to-br from-transparent to-gray-800 opacity-50 absolute inset-0" aria-hidden="true" v-if="this.$route.name === 'index'"></b>
+      <nav class="container mx-auto px-4 w-full flex-none relative">
         <ul class="md:(flex)">
           <li class="flex justify-center md:(pr-10)">
             <nuxt-link to="/" class="flex items-center space-x-2">
@@ -13,16 +14,27 @@
           </li>
           <li class="pt-5 md:(ml-auto pt-0)">
             <ul class="flex items-center justify-center space-x-10">
-              <li v-for="(i, index) in 3" :key="index">
-                <nuxt-link :to="i === 1 ? '/reviews/' : (i === 2) ? '/interviews/' : '/store/'" class="nav pb-1 flex(& col) items-end transition hover:(text-white) focus:(text-white)" active-class="active text-white" exact-active-class="">
-                  <i v-text="i === 1 ? 'Concert / Venue' : (i === 2) ? 'Artist / Band' : 'Shop'" class="text-xs not-italic opacity-50"></i>
-                  <b v-text="i === 1 ? 'Reviews' : (i === 2) ? 'Interviews' : 'Store'" class="uppercase md:(text-xl)"></b>
+              <li v-for="(nav, index) in [
+                { title: 'Reviews', sub: 'Concert / Venue', link: '/reviews/'},
+                { title: 'Interviews', sub: 'Artist / Band', link: '/interviews/'},
+                { title: 'Store', sub: 'Shop', link: '/store/'},
+              ]" :key="index">
+                <nuxt-link :to="nav.link" class="nav pb-1 flex(& col) items-end transition hover:(text-white) focus:(text-white)" active-class="active text-white" exact-active-class="">
+                  <i v-text="nav.sub" class="text-xs not-italic opacity-50"></i>
+                  <b v-text="nav.title" class="uppercase md:(text-xl)"></b>
                 </nuxt-link>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
+      <div class="py-12 flex(& col) md:(py-24) relative" v-if="this.$route.name === 'index'">
+        <h1 class="m-auto p-4 max-w-4xl text([calc(1.5vw+1.5vh)] gray-400 center) leading-normal font-bold">
+          <b class="text([calc(2vw+2vh)] gray-200) block uppercase">Concert &amp; Artist</b>
+          <nuxt-link to="/reviews/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">reviews</nuxt-link>, <nuxt-link to="/interviews/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">interviews</nuxt-link>, and <nuxt-link to="/store/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">store</nuxt-link>
+          <small class="pt-3 block text-xl opacity-70">in Wisconsin, USA</small>
+        </h1>
+      </div>
     </header>
     <main class="w-full">
       <nuxt />
@@ -80,7 +92,7 @@
         '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
         '.prose img': { '@apply': 'mx-auto block' },
         '.page-enter-active,.page-leave-active': { '@apply': 'transition', },
-        '.page-page-enter,.page-leave-to': { '@apply': 'translate-y-16 opacity-0', },
+        '.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
       }
     }))
   }
