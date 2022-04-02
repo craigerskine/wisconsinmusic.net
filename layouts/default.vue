@@ -91,8 +91,8 @@
         '.prose blockquote': { '@apply': 'mb-5 p-4 border(l-4 gray-500 opacity-50) bg(black opacity-5)' },
         '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
         '.prose img': { '@apply': 'mx-auto block' },
-        '.page-enter-active,.page-leave-active': { '@apply': 'transition', },
-        '.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
+        //'.page-enter-active,.page-leave-active': { '@apply': 'transition', },
+        //'.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
       }
     }))
   }
