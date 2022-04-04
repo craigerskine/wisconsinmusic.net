@@ -15,8 +15,8 @@
           <li class="pt-5 md:(ml-auto pt-0)">
             <ul class="flex items-center justify-center space-x-10">
               <li v-for="(nav, index) in [
-                { title: 'Reviews', sub: 'Concert / Venue', link: '/reviews/'},
-                { title: 'Interviews', sub: 'Artist / Band', link: '/interviews/'},
+                { title: 'Reviews', sub: 'Concert', link: '/reviews/'},
+                { title: 'Interviews', sub: 'Artist', link: '/interviews/'},
                 { title: 'Store', sub: 'Shop', link: '/store/'},
               ]" :key="index">
                 <nuxt-link :to="nav.link" class="nav pb-1 flex(& col) items-end transition hover:(text-white) focus:(text-white)" active-class="active text-white" exact-active-class="">
@@ -91,8 +91,8 @@
         '.prose blockquote': { '@apply': 'mb-5 p-4 border(l-4 gray-500 opacity-50) bg(black opacity-5)' },
         '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
         '.prose img': { '@apply': 'mx-auto block' },
-        //'.page-enter-active,.page-leave-active': { '@apply': 'transition', },
-        //'.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
+        '.page-enter-active,.page-leave-active': { '@apply': 'transition', },
+        '.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
       }
     }))
   }
