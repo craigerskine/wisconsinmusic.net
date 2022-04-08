@@ -50,8 +50,8 @@
         by <a href="https://craigerskine.com/" class="mx-1 text-current transition">Craig Erskine</a>
       </div>
     </footer>
-    <figure :style="'background-image: url(\''+ this.$store.state.mast +'\');'" class="bg(cover fixed center) opacity-25 fixed inset-0 z-[-1]"></figure>
-    <figure class="bg-gradient-to-b from-transparent via-transparent to-black fixed inset-0 z-[-1] opacity-80" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></figure>
+    <nuxt-img :src="this.$store.state.mast" class="w-screen h-screen object-cover object-center opacity-25 fixed inset-0 z-[-1]" />
+    <div class="bg-gradient-to-b from-transparent via-transparent to-black fixed inset-0 z-[-1] opacity-80" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></div>
   </div>
 </template>
 

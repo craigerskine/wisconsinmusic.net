@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="py-6 md:(py-12)"><heading>Concert &amp; Venue Reviews</heading></div>
+    <div class="py-6 md:(py-12)"><heading>Concert Reviews</heading></div>
     <article-list path="reviews" :article="articlesReviews"></article-list>
   </section>
 </template>
