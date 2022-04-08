@@ -1,7 +1,7 @@
 <template>
   <div class="page min-h-screen flex flex-col">
     <header :class="['py-8 w-full relative', this.$route.name === 'index' ? 'bg(gray-900 opacity-25)' : '']">
-      <b class="bg-gradient-to-br from-transparent to-gray-800 opacity-50 absolute inset-0" aria-hidden="true" v-if="this.$route.name === 'index'"></b>
+      <b class="bg-gradient-to-br from-transparent via-transparent to-gray-700 opacity-50 absolute inset-0 shadow-2xl" aria-hidden="true" v-if="this.$route.name === 'index'"></b>
       <nav class="container mx-auto px-4 w-full flex-none relative">
         <ul class="md:(flex)">
           <li class="flex justify-center md:(pr-10)">
@@ -19,9 +19,10 @@
                 { title: 'Interviews', sub: 'Artist', link: '/interviews/'},
                 { title: 'Store', sub: 'Shop', link: '/store/'},
               ]" :key="index">
-                <nuxt-link :to="nav.link" class="nav pb-1 flex(& col) items-end transition hover:(text-white) focus:(text-white)" active-class="active text-white" exact-active-class="">
+                <nuxt-link :to="nav.link" class="nav group pb-1 flex(& col) items-center relative transition hover:(text-white) focus:(text-white) md:(items-end)" active-class="active text-white" exact-active-class="">
                   <i v-text="nav.sub" class="text-xs not-italic opacity-50"></i>
                   <b v-text="nav.title" class="uppercase md:(text-xl)"></b>
+                  <b class="nav-underline flex justify-center absolute inset-x-0 bottom-0"><b class="w-0 h-[2px] bg-current opacity-0 transition-all group-hover:(w-full opacity-100) group-focus:(w-full opacity-100)"></b></b>
                 </nuxt-link>
               </li>
             </ul>
@@ -50,7 +51,7 @@
       </div>
     </footer>
     <figure :style="'background-image: url(\''+ this.$store.state.mast +'\');'" class="bg(cover fixed center) opacity-25 fixed inset-0 z-[-1]"></figure>
-    <figure class="bg-gradient-to-b from-transparent via-transparent to-black fixed inset-0 z-[-1]" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></figure>
+    <figure class="bg-gradient-to-b from-transparent via-transparent to-black fixed inset-0 z-[-1] opacity-80" aria-hidden="true"><div class="dark:bg-grid dark:bg-fixed dark:absolute dark:inset-0"></div></figure>
   </div>
 </template>
 
