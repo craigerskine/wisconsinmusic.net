@@ -1,4 +1,4 @@
-# wisconsinmusic.net
+# [wisconsinmusic.net](https://wisconsinmusic.net)
 
 ## Build Setup
 
