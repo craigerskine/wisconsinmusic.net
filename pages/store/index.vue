@@ -27,6 +27,9 @@
         articlesStore
       };
     },
+    created() {
+      this.$store.commit('change_mast', '/assets/img/_mast-placeholder.jpg');
+    },
     head() {
       return {
         title: 'Store',

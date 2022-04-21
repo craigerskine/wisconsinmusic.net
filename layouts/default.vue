@@ -37,17 +37,40 @@
         </h1>
       </div>
     </header>
-    <main class="w-full">
+    <main class="pb-24 w-full">
       <nuxt />
     </main>
-    <footer class="mt-auto pt-24 pb-8 px-4 w-full text-xs text-center font-bold uppercase">
-      <div class="container mx-auto">
-        Made with
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" role="img" class="-mt-1 mx-1 fill-current text-red-400 inline-block">
-          <title>Love</title>
-          <polygon points="8 3 11 0 12 0 16 4 16 5 9 12 7 12 0 5 0 4 4 0 5 0" transform="translate(0,2)"></polygon>
-        </svg>
-        by <a href="https://craigerskine.com/" class="mx-1 text-current transition">Craig Erskine</a>
+    <footer class="mt-auto py-24 px-4 w-full font-bold relative">
+      <b class="bg-gray-900 opacity-75 absolute inset-0" aria-hidden="true"></b>
+      <div class="container mx-auto relative">
+        <div class="grid(& flow-row cols-1) gap-10 md:(grid-cols-3)">
+          <div class="col-span-3 lg:(col-span-0)">
+            <strong class="mb-5 text-4xl block">WM Team</strong>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat exercitationem numquam eius voluptas! Pariatur expedita id atque, amet velit ratione, ad in sit minima accusantium deleniti voluptas, iste sed vero?</p>
+          </div>
+          <figure class="flex space-x-5">
+            <nuxt-img src="/assets/img/_bio_brett.jpg" alt="Brett" class="w-24 h-24 object(cover center) rounded-full" />
+            <figcaption>
+              <strong class="block">Brett Christensen</strong>
+              <small>Author</small>
+              <ul class="flex space-x-2">
+                <li><a href="https://facebook.com/brettdavidchristensen"><i class="fa-brands fa-fw fa-facebook"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+          <figure class="flex space-x-5">
+            <nuxt-img src="/assets/img/_bio_craig.png" alt="Craig" class="w-24 h-24 object(cover center) rounded-full" />
+            <figcaption>
+              <strong class="block">Craig Erskine</strong>
+              <small>Design</small>
+              <ul class="flex space-x-2">
+                <li><a href="https://craigerskine.com/"><i class="fa-solid fa-fw fa-globe"></i></a></li>
+                <li><a href="https://twitter.com/qrayg/"><i class="fa-brands fa-fw fa-twitter"></i></a></li>
+                <li><a href="https://youtube.com/c/qrayg/"><i class="fa-brands fa-fw fa-youtube"></i></a></li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </footer>
     <nuxt-img :src="this.$store.state.mast" class="w-screen h-screen object-cover object-center opacity-25 fixed inset-0 z-[-1]" />
