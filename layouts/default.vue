@@ -45,10 +45,10 @@
       <div class="container mx-auto relative">
         <div class="grid(& flow-row cols-1) gap-10 md:(grid-cols-3)">
           <div class="col-span-3 lg:(col-span-0)">
-            <strong class="mb-5 text-4xl block">WM Team</strong>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat exercitationem numquam eius voluptas! Pariatur expedita id atque, amet velit ratione, ad in sit minima accusantium deleniti voluptas, iste sed vero?</p>
+            <strong class="mb-5 text-4xl block">Thanks</strong>
+            <p>&copy; Wisconsin Music, all rights reserved | designed and maintained by <a href="https://craigerskine.com/">Craig Erskine</a></p>
           </div>
-          <figure class="flex space-x-5">
+          <!-- <figure class="flex space-x-5">
             <nuxt-img src="/assets/img/_bio_brett.jpg" alt="Brett" class="w-24 h-24 object(cover center) rounded-full" />
             <figcaption>
               <strong class="block">Brett Christensen</strong>
@@ -69,7 +69,7 @@
                 <li><a href="https://youtube.com/c/qrayg/"><i class="fa-brands fa-fw fa-youtube"></i></a></li>
               </ul>
             </figcaption>
-          </figure>
+          </figure> -->
         </div>
       </div>
     </footer>
