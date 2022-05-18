@@ -19,10 +19,10 @@
                 { title: 'Interviews', sub: 'Artist', link: '/interviews/'},
                 { title: 'Store', sub: 'Shop', link: '/store/'},
               ]" :key="index">
-                <nuxt-link :to="nav.link" class="nav group pb-1 flex(& col) items-center relative transition hover:(text-white) focus:(text-white) md:(items-end)" active-class="active text-white" exact-active-class="">
+                <nuxt-link :to="nav.link" class="nav group pb-1 flex(& col) items-center relative motion-safe:transition hover:(text-white) md:(items-end)" active-class="active text-white" exact-active-class="">
                   <i v-text="nav.sub" class="text-xs not-italic opacity-50"></i>
                   <b v-text="nav.title" class="uppercase md:(text-xl)"></b>
-                  <b class="nav-underline flex justify-center absolute inset-x-0 bottom-0"><b class="w-0 h-[2px] bg-current opacity-0 transition-all group-hover:(w-full opacity-100) group-focus:(w-full opacity-100)"></b></b>
+                  <b class="nav-underline flex justify-center absolute inset-x-0 bottom-0"><b class="w-0 h-[2px] bg-current opacity-0 motion-safe:transition-all group-hover:(w-full opacity-100)"></b></b>
                 </nuxt-link>
               </li>
             </ul>
@@ -32,7 +32,7 @@
       <div class="py-12 flex(& col) md:(py-24) relative" v-if="this.$route.name === 'index'">
         <h1 class="m-auto p-4 max-w-4xl text([calc(1.5vw+1.5vh)] gray-400 center) leading-normal font-bold">
           <b class="text([calc(2vw+2vh)] gray-200) block uppercase">Concert &amp; Artist</b>
-          <nuxt-link to="/reviews/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">reviews</nuxt-link>, <nuxt-link to="/interviews/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">interviews</nuxt-link>, and <nuxt-link to="/store/" class="text-white transition hover:(text-blue-400 underline) focus:(text-blue-400 underline)">store</nuxt-link>
+          <nuxt-link to="/reviews/" class="text-white motion-safe:transition hover:(text-blue-400 underline)">reviews</nuxt-link>, <nuxt-link to="/interviews/" class="text-white motion-safe:transition hover:(text-blue-400 underline)">interviews</nuxt-link>, and <nuxt-link to="/store/" class="text-white motion-safe:transition hover:(text-blue-400 underline)">store</nuxt-link>
           <small class="pt-3 block text-xl opacity-70">in Wisconsin, USA</small>
         </h1>
       </div>
@@ -115,7 +115,7 @@
         '.prose blockquote': { '@apply': 'mb-5 p-4 border(l-4 gray-500 opacity-50) bg(black opacity-5)' },
         '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
         '.prose img': { '@apply': 'mx-auto block' },
-        '.page-enter-active,.page-leave-active': { '@apply': 'transition', },
+        '.page-enter-active,.page-leave-active': { '@apply': 'motion-safe:transition', },
         '.page-enter,.page-leave-to': { '@apply': 'scale-[.98] opacity-0', },
       }
     }))
