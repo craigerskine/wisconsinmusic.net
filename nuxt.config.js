@@ -51,6 +51,11 @@ export default {
     '@nuxt/content',
   ],
 
+  // allow custom error/404 on netlify
+  generate: {
+    fallback: true
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     //liveEdit: false,
