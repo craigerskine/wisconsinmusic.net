@@ -1,7 +1,7 @@
 <template>
   <div class="page min-h-screen flex flex-col">
     <header :class="['py-8 w-full relative', this.$route.name === 'index' ? 'bg(gray-900 opacity-25)' : '']">
-      <b class="bg-gradient-to-br from-transparent via-transparent to-gray-700 opacity-50 absolute inset-0 shadow-2xl" aria-hidden="true" v-if="this.$route.name === 'index'"></b>
+      <b class="bg-gradient-to-br from-black via-transparent to-gray-800 opacity-50 absolute inset-0 shadow-2xl" aria-hidden="true" v-if="this.$route.name === 'index'"></b>
       <nav class="container mx-auto px-4 w-full flex-none relative">
         <ul class="md:(flex)">
           <li class="flex justify-center md:(pr-10)">
@@ -12,7 +12,7 @@
               <span class="text-white font-thin uppercase"><b class="font-black">Wisconsin</b> Music</span>
             </nuxt-link>
           </li>
-          <li class="pt-5 md:(ml-auto pt-0)">
+          <li class="pt-5 pb-10 md:(ml-auto pt-0 pb-0)">
             <ul class="flex items-center justify-center space-x-10">
               <li v-for="(nav, index) in [
                 { title: 'Reviews', sub: 'Concert', link: '/reviews/'},
@@ -109,10 +109,10 @@
     tw(() => ({
       '@global': {
         '.nav.active': { 'box-shadow': 'inset 0 -2px white' },
-        '.prose p,.prose ul,.prose ol': { '@apply': 'mb-5' },
+        '.prose p,.prose ul,.prose ol': { '@apply': 'mb-6 md:mb-8' },
         '.prose ul': { '@apply': 'list(disc inside)' },
         '.prose ol': { '@apply': 'list(decimal inside)' },
-        '.prose blockquote': { '@apply': 'mb-5 p-4 border(l-4 gray-500 opacity-50) bg(black opacity-5)' },
+        '.prose blockquote': { '@apply': 'mb-6 p-4 border(l-4 gray-500 opacity-50) bg(black opacity-5) md:mb-8' },
         '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
         '.prose img': { '@apply': 'mx-auto block' },
         '.page-enter-active,.page-leave-active': { '@apply': 'motion-safe:transition', },
