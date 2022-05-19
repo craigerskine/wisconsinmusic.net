@@ -1,5 +1,5 @@
 <template>
-  <p>404</p>
+  <div class="py-6 md:(py-12)"><heading as="h1">Page Not Found</heading></div>
 </template>
 
 <script>
