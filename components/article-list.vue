@@ -3,7 +3,7 @@
     <li v-for="(item, index) in article">
       <nuxt-link :to="'/'+ path +'/'+ item.slug + '/'" class="group block rounded motion-safe:transition">
         <figure class="transform motion-safe:transition group-hover:(-translate-y-2)">
-          <nuxt-img :src="item.image || '/assets/img/_mast-placeholder.jpg'" :alt="item.title +' mast'" class="w-full h-48 object-cover rounded motion-safe:transition group-hover:(ring(4 blue-400))" />
+          <nuxt-img :src="item.image || '/assets/img/_mast-placeholder.jpg'" :alt="item.title +' mast'" class="w-full h-48 bg-gray-900 object-cover rounded motion-safe:transition group-hover:(ring(4 blue-400))" />
           <figcaption class="pt-2 flex items-center">
             <b class="min-w-0 text(white) truncate motion-safe:transition group-hover:(text-blue-400)" :title="item.title">{{ item.title }}</b>
             <small class="ml-auto pl-5 flex-none">{{ item.date }}</small>
