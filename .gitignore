@@ -93,3 +93,4 @@ sw.*
 /_design
 /_archive
 *.code-workspace
+package-lock.json
