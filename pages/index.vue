@@ -1,10 +1,10 @@
 <template>
   <section class="w-full">
     <div class="mx-auto pt-12 max-w-screen-lg">
-      <heading>Recent Interviews</heading>
+      <heading class="pb-4" simple>Recent Interviews</heading>
       <article-list path="interviews" :article="articlesInterviews"></article-list>
       <hr class="my-12 invisible" />
-      <heading as="h3">Recent Reviews</heading>
+      <heading as="h3" class="pb-4" simple>Recent Reviews</heading>
       <article-list path="reviews" :article="articlesReviews"></article-list>
     </div>
   </section>

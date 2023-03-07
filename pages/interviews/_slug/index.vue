@@ -2,7 +2,7 @@
   <section>
     <heading>
       {{ article.title }}
-      <small class="pt-1 text-sm font-normal block">{{ article.date }}</small>
+      <heading-sub>{{ article.date }}</heading-sub>
     </heading>
     <article-page>
       <nuxt-content :document="article" />

@@ -2,11 +2,11 @@
   <section>
     <heading>
       {{ article.title }}
-      <small class="pt-1 text-sm font-normal block">
+      <heading-sub>
         {{ article.date }}
         <i class="mx-2">-</i>
         {{ article.venue }}
-      </small>
+      </heading-sub>
     </heading>
     <article-page>
       <nuxt-content :document="article" />
