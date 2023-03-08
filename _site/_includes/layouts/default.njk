@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" class="bg-gray-900 text-gray-400">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>{%- if title -%}{{ title }} - {{ site.meta.title }}{%- else -%}{{ site.meta.title }} - {{ site.meta.description }}{%- endif -%}</title>
+    <meta name="description" content="{{ site.meta.description }}" />
+    <meta name="author" content="{{ site.meta.author + ' - '+ site.meta.url }}" />
+    <meta name="generator" content="{{ eleventy.generator }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="{{ site.meta.title }}" />
+    <meta property="og:description" content="{{ site.meta.description }}" />
+    <meta property="og:url" content="{{ site.meta.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.meta.url }}/apple-touch-icon.png" />
+    <meta property="og:image:width" content="152" />
+    <meta property="og:image:height" content="152" />
+    <meta name="theme-color" content="#111111" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap" />
+
+    {% renderblock 'css' %}
+
+  </head>
+
+  <body class="!block" style="display: none;" data-instant-intensity="mousedown">
+    <div class="app w-full min-h-screen flex-(& col)">
+      <header class="py-8 w-full flex-none{% if page.url == '/' %} bg-gray-600/20{% endif %}">
+        <div class="mx-auto px-4 max-w-screen-lg md:(flex-(& row) items-center)">
+          <a href="/" class="group inline-flex items-center justify-center md:(space-x-3)">
+            {%- include "components/_logo.njk" %}
+            <span class="text-white font-thin uppercase hidden md:(block)">
+              <b class="font-black">{{ site.meta.title.substring(0, 9) }}</b>
+              {{ site.meta.title.slice(9) }}
+            </span>
+          </a>
+          <nav class="pt-5 pb-10 w-full md:(ml-auto pt-0 pb-0 w-auto)">
+            <ul class="w-full flex items-center justify-center md:(w-auto space-x-10)">
+              {%- for item in collections.all | eleventyNavigation %}
+              <li class="w-1/3 md:(w-auto)">
+                <a href="{{ item.url }}" class="nav group pb-1 flex-(& col) items-center relative motion-safe:(transition) hover:text-white md:items-end {% if item.url == page.url or item.url in page.url %} active text-white{% endif %}"
+                  {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
+                >
+                  <i class="text-xs not-italic opacity-50">{{ item.title }}</i>
+                  <b class="uppercase md:text-xl">{{ item.key }}</b>
+                  <b class="w-full h-[2px] bg-current absolute bottom-0 left-0 transform motion-safe:(transition) group-hover:(opacity-100 scale-100)
+                    {%- if item.url == page.url or item.url in page.url %} scale-100 opacity-100{%- else %} opacity-0 scale-0{%- endif %}
+                  "></b>
+                </a>
+              </li>
+              {%- endfor %}
+            </ul>
+          </nav>
+        </div>
+        {%- if page.url == '/' %}
+        <div class="mast py-12 flex-(& col) relative md:(py-24)">
+          <h1 class="m-auto p-4 max-w-4xl text-[calc(1.5vw+1.5vh)] text-center leading-normal font-bold">
+            <b class="text-[calc(2vw+2vh)] text-gray-200 block uppercase">{{ site.home.mast.lead }}</b>
+            {%- for item in collections.all | eleventyNavigation %}
+            <a href="{{ item.url }}" class="group text-white lowercase inline-block relative motion-safe:(transition) hover:(text-blue-400)">
+              {{ item.key }}
+              <b class="w-full h-[2px] bg-current absolute bottom-0 left-0 opacity-0 transform scale-0 motion-safe:(transition) group-hover:(opacity-100 scale-100)" aria-hidden="true"></b>
+            </a>
+            {%- if not loop.last %},{%- endif %}
+            {%- endfor %}
+            <small class="pt-3 block text-xl opacity-70">{{ site.home.mast.end }}</small>
+          </h1>
+        </div>
+        {%- endif %}
+      </header>
+
+      <main class="py-24 w-full flex-1">
+        <section class="mx-auto px-4 max-w-screen-lg">
+        {{ content | safe }}
+        </section>
+      </main>
+
+      {% macro footerLink(title='Title',sub='Sub',url='#') %}
+      <li class="py-3 leading-tight">
+        <a href="{{ url }}" class="group text-gray-200 motion-safe:(transition) hover:(text-blue-400)">
+          <small class="pb-1 text-xs block opacity-80">{{ sub }}</small>
+          <strong>{{ title }}</strong>
+        </a>
+      </li>
+      {% endmacro %}
+      <footer class="border-(t gray-50/10) pt-8 px-4 w-full bg-black/50 flex-none md:(pt-12)">
+        <div class="mx-auto px-4 max-w-screen-lg">
+          <div class="pb-8 text-center space-y-5 md:(pb-12 text-start flex items-start justify-between gap-5 space-y-0)">
+            <a href="/" class="group inline-flex flex-none">
+              {%- include "components/_logo.njk" %}
+            </a>
+            <div class="w-full text-sm flex-(& col) gap-10 md:(max-w-xl flex-row justify-end gap-32)">
+              <ul>
+                <li>
+                  <strong class="pb-1.5 uppercase block opacity-75">Sitemap</strong>
+                  <ul>
+                    {%- for item in collections.all | eleventyNavigation %}
+                    {{ footerLink(title=item.key,sub=item.title) }}
+                    {%- endfor %}
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <strong class="pb-1.5 uppercase block opacity-75">Colophon</strong>
+                  <ul>
+                    {%- for item in collections.bios %}
+                    {{ footerLink(title=item.data.title,sub=item.data.sub) }}
+                    {%- endfor %}
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <strong class="pb-1.5 uppercase block opacity-75">Tech Stack</strong>
+                  <ul>
+                    {%- for item in site.tech %}
+                    {{ footerLink(title=item.title,sub=item.sub) }}
+                    {%- endfor %}
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="border-(t gray-50/10) py-3 text-(xs gray-400/75 center) space-y-3 md:(py-6 text-start flex-(& wrap) justify-between space-y-0)">
+            <p>&copy; {{ site.meta.title }}</p>
+            <p>Updated on <time datetime="{{ build.time.raw }}">{{ build.time.formatted }}</time></p>
+          </div>
+        </div>
+      </footer>
+
+      <img src="{% if img %}{{ img }}{% else %}/_assets/img/_mast-placeholder.jpg{% endif %}" class="w-screen h-screen object-cover object-center opacity-25 fixed inset-0 z-[-1]" alt="{{ title }} background" />
+      <div aria-hidden="true" class="bg-black/25 fixed inset-0 z-[-1] opacity-80"><div class="bg-grid bg-fixed absolute inset-0"></div></div>
+
+    </div>
+
+    {% renderblock 'js' %}
+    <script src="/_assets/js/_app.js?v={% bust %}"></script>
+    <script src="https://kit.fontawesome.com/a2bf4ed495.js" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

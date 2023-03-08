@@ -1,0 +1,6 @@
+{% macro x(as='h2', sub='') %}
+<{{ as }} class="mb-8 text-xl text-white text-center leading-none font-black space-x-5 lg:text-[2vw]">
+  {{ caller() }}
+  {%- if sub !== '' %}<small class="pt-1 text-sm font-normal block opacity-80">{{ sub }}</small>{%- endif %}
+</{{ as }}>
+{% endmacro %}

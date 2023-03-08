@@ -1,0 +1,32 @@
+---
+layout: 'layouts/default.njk'
+---
+
+{%- import 'components/heading.njk' as heading -%}
+{%- import 'components/list.njk' as list -%}
+
+{%- call heading.x() %}
+  Recent Interviews
+{%- endcall %}
+
+{%- call list.ul() %}
+  {%- for item in collections.interviews | reverse %}
+  {%- if loop.index <= 3 %}
+  {{ list.li(title=item.data.title,img=item.data.img,date=item.page.date,url=item.url) }}
+  {%- endif %}
+  {%- endfor %}
+{%- endcall %}
+
+<hr class="my-12 invisible" />
+
+{%- call heading.x() %}
+  Recent Reviews
+{%- endcall %}
+
+{%- call list.ul() %}
+  {%- for item in collections.reviews | reverse %}
+  {%- if loop.index <= 3 %}
+  {{ list.li(title=item.data.title,img=item.data.img,date=item.page.date,url=item.url) }}
+  {%- endif %}
+  {%- endfor %}
+{%- endcall %}

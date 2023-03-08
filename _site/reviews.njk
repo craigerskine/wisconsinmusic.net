@@ -1,0 +1,21 @@
+---
+layout: 'layouts/default.njk'
+title: Reviews
+eleventyNavigation:
+  key: Reviews
+  title: Concert
+  order: 1
+---
+
+{%- import 'components/heading.njk' as heading -%}
+{%- import 'components/list.njk' as list -%}
+
+{%- call heading.x() %}
+  {{ title }}
+{%- endcall %}
+
+{%- call list.ul() %}
+  {%- for item in collections.reviews | reverse %}
+  {{ list.li(title=item.data.title,img=item.data.img,date=item.page.date,url=item.url) }}
+  {%- endfor %}
+{%- endcall %}

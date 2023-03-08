@@ -1,0 +1,22 @@
+{% macro ul() %}
+<ul class="mx-auto max-w-sm grid-(& flow-row cols-1) gap-10 sm:(max-w-screen-lg grid-cols-2) lg:(grid-cols-3)">
+  {{ caller() }}
+</ul>
+{% endmacro %}
+
+{% macro li(title='Title',sub='',date='',img='/_assets/img/_mast-placeholder.jpg',height='',url='#') %}
+<li>
+  <a href="{{ url }}" class="group text-white block rounded hover:(text-blue-400)">
+    <figure class="transform motion-safe:(transition) group-hover:(-translate-y-1)">
+      <img src="{% if img %}{{ img }}{% else %}/_assets/img/_mast-placeholder.jpg{% endif %}" alt="{{ title }} mast" class="w-full {% if height %}{% else %}h-48{% endif %} object-(cover center) rounded motion-safe:(transition) group-hover:(scale-105)">
+      <figcaption class="pt-2 flex items-center">
+        <b title="{{ title }}" class="min-w-0 truncate motion-safe:(transition)">{{ title }}</b>
+        <small class="ml-auto pl-5 flex-none text-white/80">
+          {%- if sub %}{{ sub }}{%- endif %}
+          {%- if date %}{{ date.toLocaleDateString("en-US", {month: '2-digit', day: '2-digit', year: 'numeric'}) }}{%- endif %}
+        </small>
+      </figcaption>
+    </figure>
+  </a>
+</li>
+{% endmacro %}

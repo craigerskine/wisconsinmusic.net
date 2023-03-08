@@ -1,0 +1,29 @@
+---
+meta:
+  title: 'Wisconsin Music'
+  description: 'Concert & artist reviews and interviews in Wisconsin, USA'
+  author: 'Craig Erskine'
+  url: https://craigerskine.com
+home:
+  mast:
+    lead: 'Concert & Artist'
+    end: in Wisconsin, USA
+social:
+  - title: Dribbble
+    url: https://dribbble.com/craigerskine
+    ico: dribbble
+    color: pink
+tech:
+  - title: '11ty'
+    sub: SSG
+    url: https://11ty.dev/
+  - title: 'Twind'
+    sub: Styles
+    url: https://twind.style/
+  - title: 'Netlify'
+    sub: Host
+    url: https://netlify.com/
+analytics: |-
+  // google analytics
+  // window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  // ga('create', 'UA-XXXXXXX-X', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')

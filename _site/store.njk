@@ -1,0 +1,23 @@
+---
+layout: 'layouts/default.njk'
+title: Shop Wisconsin Music
+eleventyNavigation:
+  key: Store
+  title: Shop
+  order: 3
+---
+
+{%- import 'components/heading.njk' as heading -%}
+{%- import 'components/list.njk' as list -%}
+
+{%- call heading.x() %}
+  {{ title }}
+{%- endcall %}
+
+{%- call list.ul() %}
+  <li aria-hidden="true"></li>
+  {%- for item in collections.product %}
+  {{ list.li(title=item.data.title,sub=item.data.sub,img=item.data.img,height='h-48',url=item.data.url) }}
+  {%- endfor %}
+  <li aria-hidden="true"></li>
+{%- endcall %}

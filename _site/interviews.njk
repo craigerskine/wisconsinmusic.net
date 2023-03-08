@@ -1,0 +1,21 @@
+---
+layout: 'layouts/default.njk'
+title: Interviews
+eleventyNavigation:
+  key: Interviews
+  title: Artist
+  order: 2
+---
+
+{%- import 'components/heading.njk' as heading -%}
+{%- import 'components/list.njk' as list -%}
+
+{%- call heading.x() %}
+  {{ title }}
+{%- endcall %}
+
+{%- call list.ul() %}
+  {%- for item in collections.interviews | reverse %}
+  {{ list.li(title=item.data.title,img=item.data.img,date=item.page.date,url=item.url) }}
+  {%- endfor %}
+{%- endcall %}
