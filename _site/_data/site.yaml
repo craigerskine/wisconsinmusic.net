@@ -1,6 +1,6 @@
 ---
 meta:
-  title: 'Wisconsin Music'
+  title: Wisconsin Music
   description: 'Concert & artist reviews and interviews in Wisconsin, USA'
   author: 'Craig Erskine'
   url: https://craigerskine.com
@@ -9,20 +9,32 @@ home:
     lead: 'Concert & Artist'
     end: in Wisconsin, USA
 social:
-  - title: Dribbble
-    url: https://dribbble.com/craigerskine
-    ico: dribbble
+  - title: Twitter
+    url: '#'
+    ico: twitter
+    color: blue
+  - title: Facebook
+    url: '#'
+    ico: facebook
+    color: indigo
+  - title: Instagram
+    url: '#'
+    ico: instagram
     color: pink
-tech:
-  - title: '11ty'
-    sub: SSG
-    url: https://11ty.dev/
-  - title: 'Twind'
-    sub: Styles
-    url: https://twind.style/
-  - title: 'Netlify'
-    sub: Host
-    url: https://netlify.com/
+footer:
+  - title: Sitemap
+  - title: Colophon
+  - title: Tech Stack
+    nav:
+      - title: '11ty'
+        sub: SSG
+        url: https://11ty.dev/
+      - title: 'Twind'
+        sub: Styles
+        url: https://twind.style/
+      - title: 'Netlify'
+        sub: Host
+        url: https://netlify.com/
 analytics: |-
   // google analytics
   // window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

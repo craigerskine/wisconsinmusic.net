@@ -92,41 +92,43 @@
       <footer class="border-(t gray-50/10) pt-8 px-4 w-full bg-black/50 flex-none md:(pt-12)">
         <div class="mx-auto px-4 max-w-screen-lg">
           <div class="pb-8 text-center space-y-5 md:(pb-12 text-start flex items-start justify-between gap-5 space-y-0)">
-            <a href="/" class="group inline-flex flex-none">
-              {%- include "components/_logo.njk" %}
-            </a>
-            <div class="w-full text-sm flex-(& col) gap-10 md:(max-w-xl flex-row justify-end gap-32)">
+            <nav class="flex-none">
+              <a href="/" class="group inline-flex">
+                {%- include "components/_logo.njk" %}
+              </a>
+              <ul class="py-5 text-2xl flex justify-center gap-5 md:(justify-start)">
+                {%- for item in site.social %}
+                <li><a href="{{ item.url }}" class="motion-safe:(transition) hover:(text-{{ item.color }}-400)"><i class="fa-brands fa-fw fa-{{ item.ico }}"></i></a></li>
+                {%- endfor %}
+              </ul>
+            </nav>
+            <nav class="w-full text-sm flex-(& col) gap-10 md:(max-w-xl flex-row justify-end gap-32)">
+              {%- for cat in site.footer %}
               <ul>
                 <li>
-                  <strong class="pb-1.5 uppercase block opacity-75">Sitemap</strong>
+                  <strong class="pb-1.5 uppercase block opacity-75">{{ cat.title }}</strong>
                   <ul>
-                    {%- for item in collections.all | eleventyNavigation %}
-                    {{ footerLink(title=item.key,sub=item.title) }}
-                    {%- endfor %}
+                    {# sitemap #}
+                    {%- if cat.title == 'Sitemap' %}
+                      {%- for item in collections.all | eleventyNavigation %}
+                      {{ footerLink(title=item.key,sub=item.title,url=item.url) }}
+                      {%- endfor %}
+                    {# colophon #}
+                    {%- elseif cat.title == 'Colophon' %}
+                      {%- for item in collections.bios %}
+                      {{ footerLink(title=item.data.title,sub=item.data.sub,url=item.data.url) }}
+                      {%- endfor %}
+                    {# tech stack #}
+                    {%- else %}
+                      {%- for item in cat.nav %}
+                      {{ footerLink(title=item.title,sub=item.sub,url=item.url) }}
+                      {%- endfor %}
+                    {%- endif %}
                   </ul>
                 </li>
               </ul>
-              <ul>
-                <li>
-                  <strong class="pb-1.5 uppercase block opacity-75">Colophon</strong>
-                  <ul>
-                    {%- for item in collections.bios %}
-                    {{ footerLink(title=item.data.title,sub=item.data.sub) }}
-                    {%- endfor %}
-                  </ul>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <strong class="pb-1.5 uppercase block opacity-75">Tech Stack</strong>
-                  <ul>
-                    {%- for item in site.tech %}
-                    {{ footerLink(title=item.title,sub=item.sub) }}
-                    {%- endfor %}
-                  </ul>
-                </li>
-              </ul>
-            </div>
+              {%- endfor %}
+            </nav>
           </div>
           <div class="border-(t gray-50/10) py-3 text-(xs gray-400/75 center) space-y-3 md:(py-6 text-start flex-(& wrap) justify-between space-y-0)">
             <p>&copy; {{ site.meta.title }}</p>
