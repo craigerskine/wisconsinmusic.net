@@ -1,0 +1,46 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: _site/_assets/img
+public_folder: /_assets/img
+
+collections:
+  - name: 'reviews'
+    label: 'Reviews'
+    label_singular: 'Review'
+    folder: '_site/reviews'
+    format: 'frontmatter'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false }
+      - { label: 'Date', name: 'date', widget: 'date', default: 'YYYY/MM/DD', format: 'YYYY/MM/DD', date_format: 'YYYY/MM/DD' }
+      - { label: 'Venue', name: 'venue', widget: 'string' }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'] }
+  - name: 'interviews'
+    label: 'Interviews'
+    label_singular: 'Interview'
+    folder: '_site/interviews'
+    format: 'frontmatter'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, choose_url: false }
+      - { label: 'Date', name: 'date', widget: 'date', default: 'YYYY/MM/DD', format: 'YYYY/MM/DD', date_format: 'YYYY/MM/DD' }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'] }
+  - name: 'bios'
+    label: 'Bios'
+    label_singular: 'Bio'
+    folder: '_site/bios'
+    format: 'frontmatter'
+    create: false
+    fields:
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image', allow_multiple: false, choose_url: false }
+      - { label: 'Website', name: 'website', widget: 'string', required: false }
+      - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
+      - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
+      - { label: 'YouTube', name: 'youtube', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ['bold', 'italic', 'link', 'quote', 'bulleted-list', 'numbered-list'], editor_components: ['image'] }
