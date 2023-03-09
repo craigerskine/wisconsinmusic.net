@@ -6,6 +6,8 @@ const markdownItAttrs = require("markdown-it-attrs");
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setDataFileBaseName('_index');
+
   eleventyConfig.addPassthroughCopy({'_site/_assets/img': '_assets/img'});
   eleventyConfig.addPassthroughCopy({'_site/_assets/_root': './'});
   
