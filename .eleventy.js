@@ -9,7 +9,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataFileBaseName('_index');
 
   eleventyConfig.addPassthroughCopy({
-    '_site/_admin': '_admin',
     '_site/_assets/img': '_assets/img',
     '_site/_assets/_root': './',
   });
