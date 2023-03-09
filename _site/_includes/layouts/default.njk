@@ -116,7 +116,7 @@
                     {# colophon #}
                     {%- elseif cat.title == 'Colophon' %}
                       {%- for item in collections.bios %}
-                      {{ footerLink(title=item.data.title,sub=item.data.sub,url=item.data.url) }}
+                      {{ footerLink(title=item.data.title,sub=item.data.sub,url=item.data.website) }}
                       {%- endfor %}
                     {# tech stack #}
                     {%- else %}

@@ -2,7 +2,7 @@
 title: Craig
 sub: Webmaster
 avatar: '/_assets/img/_bio_craig.jpg'
-url: https://craigerskine.com/
+website: https://craigerskine.com/
 twitter: https://twitter.com/qrayg/
 youtube: https://youtube.com/c/qrayg/
 tags:

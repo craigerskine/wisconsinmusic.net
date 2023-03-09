@@ -2,7 +2,7 @@
 title: Brett
 sub: 'Author / Founder'
 avatar: '/_assets/img/_bio_brett.jpg'
-url: https://wisconsinmusic.net/
+website: https://wisconsinmusic.net/
 facebook: https://facebook.com/brettdavidchristensen
 tags:
   - bios
