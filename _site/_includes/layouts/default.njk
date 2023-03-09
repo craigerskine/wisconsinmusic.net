@@ -33,7 +33,7 @@
     <div class="app w-full min-h-screen flex-(& col)">
       <header class="py-8 w-full flex-none{% if page.url == '/' %} bg-gray-600/20{% endif %}">
         <div class="mx-auto px-4 max-w-screen-lg md:(flex-(& row) items-center)">
-          <a href="/" class="group inline-flex items-center justify-center md:(space-x-3)">
+          <a href="/" class="group flex-(& none) items-center justify-center md:(space-x-3)">
             {%- include "components/_logo.njk" %}
             <span class="text-white font-thin uppercase hidden md:(block)">
               <b class="font-black">{{ site.meta.title.substring(0, 9) }}</b>
