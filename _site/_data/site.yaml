@@ -11,15 +11,15 @@ home:
 social:
   - title: Twitter
     url: '#'
-    ico: twitter
+    ico: fa6-brands:twitter
     color: blue
   - title: Facebook
     url: 'https://www.facebook.com/groups/283252958709695'
-    ico: facebook
+    ico: fa6-brands:facebook
     color: indigo
   - title: Instagram
     url: '#'
-    ico: instagram
+    ico: fa6-brands:instagram
     color: pink
 footer:
   - title: Sitemap
