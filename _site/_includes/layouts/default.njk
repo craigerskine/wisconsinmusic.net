@@ -108,17 +108,14 @@
                 <li>
                   <strong class="pb-1.5 uppercase block opacity-75">{{ cat.title }}</strong>
                   <ul>
-                    {# sitemap #}
                     {%- if cat.title == 'Sitemap' %}
                       {%- for item in collections.all | eleventyNavigation %}
                       {{ footerLink(title=item.key,sub=item.title,url=item.url) }}
                       {%- endfor %}
-                    {# colophon #}
                     {%- elseif cat.title == 'Colophon' %}
                       {%- for item in collections.bios %}
                       {{ footerLink(title=item.data.title,sub=item.data.sub,url=item.data.website) }}
                       {%- endfor %}
-                    {# tech stack #}
                     {%- else %}
                       {%- for item in cat.nav %}
                       {{ footerLink(title=item.title,sub=item.sub,url=item.url) }}
