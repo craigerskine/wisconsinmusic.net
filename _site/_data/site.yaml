@@ -1,25 +1,25 @@
 ---
 meta:
   title: Wisconsin Music
-  description: 'Concert & artist reviews and interviews in Wisconsin, USA'
-  author: 'Craig Erskine'
+  description: Concert & artist reviews and interviews in Wisconsin, USA
+  author: Craig Erskine
   url: https://wisconsinmusic.net
 home:
   mast:
-    lead: 'Concert & Artist'
+    lead: Concert & Artist
     end: in Wisconsin, USA
 social:
   - title: Twitter
     url: '#'
-    ico: fa6-brands:twitter
+    ico: mdi:twitter
     color: blue
   - title: Facebook
-    url: 'https://www.facebook.com/groups/283252958709695'
-    ico: fa6-brands:facebook
+    url: https://www.facebook.com/groups/283252958709695
+    ico: mdi:facebook
     color: indigo
   - title: Instagram
     url: '#'
-    ico: fa6-brands:instagram
+    ico: mdi:instagram
     color: pink
 footer:
   - title: Sitemap

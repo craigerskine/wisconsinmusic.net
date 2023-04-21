@@ -4,11 +4,11 @@
 </ul>
 {% endmacro %}
 
-{% macro li(title='Title',sub='',date='',img='/_assets/img/_mast-placeholder.jpg',height='',url='#') %}
+{% macro li(title='Title',sub='',date='',img='/_assets/img/_mast-placeholder.jpg',height='',url='#',bordered=true) %}
 <li>
   <a href="{{ url }}" class="group text-white block rounded hover:(text-blue-400)">
-    <figure class="transform motion-safe:(transition) group-hover:(-translate-y-1)">
-      <img src="{% if img %}{{ img }}{% else %}/_assets/img/_mast-placeholder.jpg{% endif %}" alt="{{ title }} mast" class="w-full {% if height %}{% else %}h-48{% endif %} object-(cover center) rounded motion-safe:(transition) group-hover:(scale-105)">
+    <figure class="relative after:(h-px bg-white/20 content-[''] absolute inset-x-px top-px motion-safe:(transition) group-hover:(bg-opacity-30 -translate-y-2))">
+      <img src="{% if img %}{{ img }}{% else %}/_assets/img/_mast-placeholder.jpg{% endif %}" alt="{{ title }} mast" class="{% if bordered %}border-(1 black) {% endif %}w-full {% if height %}{% else %}h-48{% endif %} object-(cover center) opacity-75 shadow-lg transform motion-safe:(transition) group-hover:(opacity-100 -translate-y-2)" />
       <figcaption class="pt-2 flex items-center">
         <b title="{{ title }}" class="min-w-0 truncate motion-safe:(transition)">{{ title }}</b>
         <small class="ml-auto pl-5 flex-none text-white/80">

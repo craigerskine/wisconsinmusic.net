@@ -17,7 +17,7 @@ eleventyNavigation:
 {%- call list.ul() %}
   <li aria-hidden="true"></li>
   {%- for item in collections.product %}
-  {{ list.li(title=item.data.title,sub=item.data.sub,img=item.data.img,height='h-48',url=item.data.url) }}
+  {{ list.li(title=item.data.title,sub=item.data.sub,img=item.data.img,height='h-48',url=item.data.url,bordered=false) }}
   {%- endfor %}
   <li aria-hidden="true"></li>
 {%- endcall %}
