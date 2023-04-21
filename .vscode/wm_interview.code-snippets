@@ -1,0 +1,17 @@
+{
+	 "WM Interview": {
+	 	"prefix": "wm_interview",
+	 	"body": [
+      "---",
+      "title: ${1:The Title of Your Interview}",
+      "img: /_assets/img/interview_${2:some-image}.jpg",
+      "date: ${3:2023-12-31}",
+      "---",
+      "",
+      "$0Put your content here, save this file into the `/_site/interviews/` folder as `some-name-year.md`, all lowercase, NO spaces, and replace `year` with the current year of the interview.",
+      "",
+      "![image](/_assets/img/interview_example-image.jpg)",
+	 	],
+	 	"description": "Wisconsin Music - Interview"
+	}
+}
