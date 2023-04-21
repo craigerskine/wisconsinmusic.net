@@ -1,6 +1,6 @@
 ---
-title: 'Erik Turner (Warrant)'
-img: '/_assets/img/interview_erik2.jpg'
+title: Erik Turner (Warrant)
+img: /_assets/img/interview_erik2.jpg
 date: 2018-02-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Tom Peterson (Cheap Trick)'
-img: '/_assets/img/interview_tom5_1.jpg'
+img: /_assets/img/interview_tom5_1.jpg
 date: 2018-10-15
 ---
 

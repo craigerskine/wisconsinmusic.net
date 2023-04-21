@@ -1,6 +1,6 @@
 ---
 title: Hayley Orrantia
-img: '/_assets/img/interview_hayley-orrantia-4.jpg'
+img: /_assets/img/interview_hayley-orrantia-4.jpg
 date: 2018-05-09
 ---
 

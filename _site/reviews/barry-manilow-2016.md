@@ -2,7 +2,7 @@
 title: Barry Manilow
 venue: Resch Center
 location: Green Bay, WI
-img: '/_assets/img/review_2016-04-21-bm-01.jpg'
+img: /_assets/img/review_2016-04-21-bm-01.jpg
 date: 2016-04-21
 ---
 

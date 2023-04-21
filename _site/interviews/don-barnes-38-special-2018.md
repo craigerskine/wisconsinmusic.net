@@ -1,6 +1,6 @@
 ---
-title: 'Don Barnes (38 Special)'
-img: '/_assets/img/interview_don4.jpg'
+title: Don Barnes (38 Special)
+img: /_assets/img/interview_don4.jpg
 date: 2018-03-03
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Al Pitrelli
-img: '/_assets/img/interview_2016-12-02-al-pitrelli-mast.jpg'
+img: /_assets/img/interview_2016-12-02-al-pitrelli-mast.jpg
 date: 2016-12-02
 ---
 

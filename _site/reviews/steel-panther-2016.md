@@ -2,7 +2,7 @@
 title: Steel Panther
 venue: Sandlot Entertainment Complex
 location: Green Bay, WI
-img: '/_assets/img/review_2016-05-20-sp-01.jpg'
+img: /_assets/img/review_2016-05-20-sp-01.jpg
 date: 2016-05-20
 ---
 

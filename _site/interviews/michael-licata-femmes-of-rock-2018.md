@@ -1,6 +1,6 @@
 ---
-title: 'Michael Licata  (Femmes of Rock)'
-img: '/_assets/img/interview_mike0.jpg'
+title: Michael Licata (Femmes of Rock)
+img: /_assets/img/interview_mike0.jpg
 date: 2018-09-12
 ---
 

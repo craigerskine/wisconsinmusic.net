@@ -2,7 +2,7 @@
 title: Rival Sons
 venue: The Sand Lot
 location: Green Bay, WI
-img: '/_assets/img/review_1rivalsons2017.jpg'
+img: /_assets/img/review_1rivalsons2017.jpg
 date: 2017-05-13
 ---
 

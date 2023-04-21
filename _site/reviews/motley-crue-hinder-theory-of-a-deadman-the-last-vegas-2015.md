@@ -2,7 +2,7 @@
 title: Motley Crue / Hinder / Theory of a Deadman / The Last Vegas
 venue: Resch Center
 location: Green Bay, WI
-img: '/_assets/img/review_2015-02-19-mc-01.jpg'
+img: /_assets/img/review_2015-02-19-mc-01.jpg
 date: 2015-02-19
 ---
 

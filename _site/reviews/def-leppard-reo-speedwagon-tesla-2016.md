@@ -2,7 +2,7 @@
 title: Def Leppard / REO Speedwagon / Tesla
 venue: Veterans Memorial Coliseum
 location: Madison, WI
-img: '/_assets/img/review_2016-08-06-dl-01.jpg'
+img: /_assets/img/review_2016-08-06-dl-01.jpg
 date: 2016-08-06
 ---
 

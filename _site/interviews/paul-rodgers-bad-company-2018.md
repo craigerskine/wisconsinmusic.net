@@ -1,6 +1,6 @@
 ---
-title: 'Paul Rodgers (Bad Company)'
-img: '/_assets/img/interview_paul1.jpg'
+title: Paul Rodgers (Bad Company)
+img: /_assets/img/interview_paul1.jpg
 date: 2018-10-24
 ---
 

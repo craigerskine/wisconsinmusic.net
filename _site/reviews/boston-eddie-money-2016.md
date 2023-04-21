@@ -2,7 +2,7 @@
 title: Boston / Eddie Money
 venue: Resch Center
 location: Green Bay, WI
-img: '/_assets/img/review_2016-05-22-bem-01.jpg'
+img: /_assets/img/review_2016-05-22-bem-01.jpg
 date: 2016-05-22
 ---
 

@@ -2,7 +2,7 @@
 title: Green Day
 venue: Resch Center
 location: Green Bay, WI
-img: '/_assets/img/review_greendaymast.jpg'
+img: /_assets/img/review_greendaymast.jpg
 date: 2017-03-30
 ---
 

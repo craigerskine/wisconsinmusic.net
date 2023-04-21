@@ -1,6 +1,6 @@
 ---
 title: Troy Luccketta
-img: '/_assets/img/interview_2016-08-01-tl-01.jpg'
+img: /_assets/img/interview_2016-08-01-tl-01.jpg
 date: 2016-08-01
 ---
 

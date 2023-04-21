@@ -1,6 +1,6 @@
 ---
-title: 'Simon Kirke (Bad Company)'
-img: '/_assets/img/interview_simon00_1.jpg'
+title: Simon Kirke (Bad Company)
+img: /_assets/img/interview_simon00_1.jpg
 date: 2018-10-01
 ---
 

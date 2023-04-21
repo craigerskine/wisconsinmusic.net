@@ -1,6 +1,6 @@
 ---
-title: 'Nina DiGregorio (Femmes of Rock)'
-img: '/_assets/img/interview_for1.jpg'
+title: Nina DiGregorio (Femmes of Rock)
+img: /_assets/img/interview_for1.jpg
 date: 2018-01-11
 ---
 

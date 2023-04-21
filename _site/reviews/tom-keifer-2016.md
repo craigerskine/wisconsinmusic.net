@@ -2,7 +2,7 @@
 title: Tom Keifer
 venue: Green Bay Distillery
 location: Ashwaubenon, WI
-img: '/_assets/img/review_2016-09-08-tk-mast.jpg'
+img: /_assets/img/review_2016-09-08-tk-mast.jpg
 date: 2016-09-08
 ---
 
