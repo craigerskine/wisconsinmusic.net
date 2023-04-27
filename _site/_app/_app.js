@@ -30,12 +30,9 @@ install({
   ],
 });
 
-injectGlobal({
-  '.nav.active': { 'box-shadow': 'inset 0 -2px white' },
-  // '.prose p,.prose ul,.prose ol': { '@apply': 'mb-6 md:mb-8' },
-  // '.prose ul': { '@apply': 'list-(disc inside)' },
-  // '.prose ol': { '@apply': 'list-(decimal inside)' },
-  // '.prose blockquote': { '@apply': 'mb-6 p-4 border-(l-4 gray-500 opacity-50) bg-(black opacity-5) md:mb-8' },
-  // '.prose blockquote > p:last-child': { '@apply': 'mb-0' },
-  '.prose img': { '@apply': 'mx-auto block' },
-});
+injectGlobal`
+  @layer base {
+    .nav.active { box-shadow: inset 0 -2px white; }
+    .prose img { @apply mx-auto block; }
+  }
+`
