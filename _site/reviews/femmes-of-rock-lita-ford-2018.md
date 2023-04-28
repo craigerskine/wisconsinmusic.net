@@ -2,7 +2,7 @@
 title: Femmes of Rock / Lita Ford
 venue: Weidner Center
 location: Green Bay
-img: /_assets/img/review_forlive1_1.jpg
+img: /_assets/img/review_forlive1.jpg
 date: 2018-01-13
 ---
 
