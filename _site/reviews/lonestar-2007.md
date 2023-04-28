@@ -1,11 +1,11 @@
 ---
 title: Lonestar
-img: /_assets/img/picture-020.jpg
+img: /_assets/img/review_lonestart-2007.jpg
 date: 2007-08-07
 venue: Wisconsin State Fair
 location: West Bend, WI
 ---
-![](/_assets/img/picture-020.jpg)
+![Lonestar on stage](/_assets/img/review_lonestart-2007.jpg)
 
 Even though the band Lonestar is about to go through a major overhaul with the departure of lead singer and main songwriter Richie McDonald, you'd never know it by attending one of their concerts. When the band rolled through West Bend to perform at the Wisconsin State Fair, both the band and their fans were ready to have a good time. Despite rumors of ill feelings between band members, their comradely and performance were top notch.
 

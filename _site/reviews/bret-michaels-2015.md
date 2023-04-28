@@ -1,11 +1,11 @@
 ---
 title: Bret Michaels
-img: /_assets/img/100_3159.jpg
+img: /_assets/img/review_brett-michaels-2015.jpg
 date: 2015-09-15
 venue: Oneida Casino
 location: Green Bay, WI
 ---
-![](/_assets/img/100_3159.jpg)
+![Brett Michaels on stage](/_assets/img/review_brett-michaels-2015.jpg)
 
 A few years ago Bret Michaels could have performed in Green Bay, and filled whatever hall fairly well. As the lead singer of the band Poison; THE glam rock band from the eighties, he has a fairly large fan base from the past few decades. But that was a few years ago. The concert he performed this Monday night at the Oneida Casino was not filled fairly well, it was PACKED. Credit that to Rock Of Love, his hit reality TV show on VH-1.
 

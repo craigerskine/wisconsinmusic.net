@@ -5,7 +5,7 @@ backend:
 
 publish_mode: editorial_workflow
 
-logo_url: https://wisconsinmusic.net/_assets/img/logo.svg
+logo_url: https://wisconsinmusic.net/_assets/img/_logo.svg
 media_folder: _site/_assets/img
 public_folder: /_assets/img
 

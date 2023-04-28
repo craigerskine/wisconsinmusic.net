@@ -1,11 +1,11 @@
 ---
 title: Kelly Clarkson
-img: /_assets/img/kelly-clarkson-resch-center.jpg
+img: /_assets/img/review_kelly-clarkson-resch-center.jpg
 date: 2005-08-14
 venue: "Location: Resch Center"
 location: Green Bay, WI
 ---
-![](/_assets/img/kelly-clarkson-resch-center.jpg)
+![](/_assets/img/review_kelly-clarkson-resch-center.jpg)
 
 Not only has reality TV changed the television industry, it's also changed the music industry. A perfect example, if not the best example, is American Idol and it's first idol winner Kelly Clarkson. Had it not been for this reality show, Kelly would not be played on stations across America nor would she be on a very successful tour promoting her second release Breakaway.
 

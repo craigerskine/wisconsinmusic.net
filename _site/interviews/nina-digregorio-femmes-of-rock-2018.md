@@ -68,4 +68,4 @@ Well, hopefully our temperature stays decent for when you perform!
 * [Purchase Femmes of Rock / Lita Ford tickets](http://www.weidnercenter.com/events/femmes-of-rock/)
 * [Femmes of Rock Official Website](https://femmesofrock.com/)
 
-![image](/_assets/img/interview_for4.jpg
+![image](/_assets/img/interview_for4.jpg)
