@@ -6,6 +6,11 @@ const markdownItAttrs = require("markdown-it-attrs");
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.setServerOptions({
+    domdiff: false,
+  });
+
   eleventyConfig.setDataFileBaseName('_data');
 
   eleventyConfig.addPassthroughCopy({
