@@ -20,7 +20,7 @@ install({
         // pri: theme('colors.orange'),
       }),
       fontFamily: ({ theme }) => ({
-        sans: 'Raleway,'+ theme('fontFamily.sans'),
+        sans: ['Raleway', ...theme('fontFamily.sans')],
       }),
     },
   },
