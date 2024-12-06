@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-gray-900 text-gray-400 antialiased">
+<html lang="en" class="bg-gray-900 text-gray-400 antialiased" x-data>
 
   <head>
     <meta charset="utf-8" />
@@ -31,7 +31,7 @@
 
   <body class="!block" style="display: none;" data-instant-intensity="mousedown">
     <div class="app w-full min-h-screen flex-(& col)">
-      <header class="py-8 w-full flex-none{% if page.url == '/' %} bg-gray-600/20{% endif %}">
+      <header class="py-8 w-full bg-gradient-to-b from-black/75 flex-none{% if page.url == '/' %} bg-gray-600/20{% endif %}">
         <div class="mx-auto px-4 max-w-screen-lg md:(flex-(& row) items-center)">
           <a href="/" class="group flex-(& none) items-center justify-center md:(space-x-3)">
             {%- include "components/_logo.njk" %}
@@ -98,7 +98,7 @@
               </a>
               <ul class="py-5 text-2xl flex justify-center gap-5 md:(justify-start)">
                 {%- for item in site.social %}
-                <li><a href="{{ item.url }}" class="motion-safe:(transition) hover:(text-{{ item.color }}-400)"><iconify-icon icon="{{ item.ico }}" inline="false"></iconify-icon></a></li>
+                <li><a {{ '@click.prevent' | safe if item.url === '#' }} href="{{ item.url }}" class="motion-safe:(transition) hover:(text-{{ item.color }}-400)"><iconify-icon icon="{{ item.ico }}" inline="false"></iconify-icon></a></li>
                 {%- endfor %}
               </ul>
             </nav>

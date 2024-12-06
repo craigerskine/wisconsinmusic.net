@@ -9,17 +9,17 @@ home:
     lead: Concert & Artist
     end: in Wisconsin, USA
 social:
-  - title: Twitter
+  - title: X
     url: '#'
-    ico: mdi:twitter
+    ico: simple-icons:x
     color: blue
   - title: Facebook
     url: https://www.facebook.com/groups/283252958709695
-    ico: mdi:facebook
+    ico: simple-icons:facebook
     color: indigo
   - title: Instagram
     url: '#'
-    ico: mdi:instagram
+    ico: simple-icons:instagram
     color: pink
 footer:
   - title: Sitemap

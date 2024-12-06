@@ -18,6 +18,7 @@
     "@twind/preset-autoprefix": "^1.0.7",
     "@twind/preset-tailwind": "^1.1.4",
     "@twind/preset-typography": "^1.0.7",
+    "alpinejs": "^3.14.7",
     "esbuild": "^0.24.0",
     "iconify-icon": "^2.1.0",
     "instant.page": "^5.2.0",
