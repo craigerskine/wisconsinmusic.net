@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: craigerskine/wisconsinmusic.net
-  branch: main
+  branch: master
 
 publish_mode: editorial_workflow
 
