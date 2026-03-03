@@ -6,14 +6,14 @@ backend:
 publish_mode: editorial_workflow
 
 logo_url: https://wisconsinmusic.net/_assets/img/_logo.svg
-media_folder: _site/_assets/img
+media_folder: _src/_assets/img
 public_folder: /_assets/img
 
 collections:
   - name: 'reviews'
     label: 'Reviews'
     label_singular: 'Review'
-    folder: '_site/reviews'
+    folder: '_src/reviews'
     format: 'frontmatter'
     create: true
     slug: '{{title}}-{{fields.date}}'
@@ -27,7 +27,7 @@ collections:
   - name: 'interviews'
     label: 'Interviews'
     label_singular: 'Interview'
-    folder: '_site/interviews'
+    folder: '_src/interviews'
     format: 'frontmatter'
     create: true
     slug: '{{title}}-{{fields.date}}'
@@ -39,7 +39,7 @@ collections:
   - name: 'bios'
     label: 'Bios'
     label_singular: 'Bio'
-    folder: '_site/bios'
+    folder: '_src/bios'
     format: 'frontmatter'
     create: false
     fields:
