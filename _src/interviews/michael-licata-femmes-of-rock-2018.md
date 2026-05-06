@@ -6,7 +6,7 @@ date: 2018-09-12
 
 You might not know the name Michael Licata, but you definitely know the artists he's worked with -- from Chris Brown & Rihanna; to Blues Traveler & Ricky Martin; and even Drake & Ringo Starr. As diverse as the artists he's worked with, so are the different hats he's worn in the music industry: manager, agent, drummer, writer, producer and even musical director. His current endeavor, and possibly his most important to date, is a dual role with the exciting Femmes of Rock. Early this year they played the Weidner Center, and this October they will be back opening for Cheap Trick and Bad Company at the Resch Center. Michael takes time out of his busy schedule to chat with Wisconsin Music about his past, present and future.
 
-![image](/_assets/img/interview_mike2.jpg)
+![image](../../_assets/img/interview_mike2.jpg)
 
 **WM:**
 You're not only the manager of the Femmes of Rock, but you're also their drummer! When did you first start playing drums?
@@ -23,7 +23,7 @@ What do you consider your first professional gig?
 
 > **ML:** The first thing I ever did that was on a national level was play over five years in a top 40 show band out of Miami. We played five one-hour sets a night. That was when people used to actually go out and see bands… not that I want to date myself! (laughs) But people would come out five nights a week. That was like school for me. The first real GIG that I had was with a pop singer named Jermaine Stewart. He had a hit in the late '80s called "We Don't Have To Take Our Clothes Off", and I'm in the video for that. You can't miss me, I'm the only white guy! I was his drummer and music director. I saw the world with Jermaine and he was the greatest guy. We were the best of friends until he passed away in 1997. So that got me in television and touring around the world, and it took off from there. If you watch the video for that song, you'll see for a horrifying moment me wearing this long trench coat. 
 
-![image](/_assets/img/interview_mike3.jpg)
+![image](../../_assets/img/interview_mike3.jpg)
 
 **WM:**
 Are the rumors true that you're going to be wearing that outfit in Green Bay during the concert with Bad Company and Cheap Trick? (laughs)
@@ -49,7 +49,7 @@ This October 27th you're returning to Green Bay, opening for Bad Company and Che
 > 
 > We are going to leave everything we've got on that stage. We want to be the band that had the opening slot and won everybody over. That's our mission. 
 
-![image](/_assets/img/interview_mike4.jpg)
+![image](../../_assets/img/interview_mike4.jpg)
 
 **WM:**
 Things are moving fast for the Femmes of Rock! What's on the horizon?

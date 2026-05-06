@@ -6,7 +6,7 @@ date: 2018-05-09
 
 The hit television show *"The Goldbergs"* is based on the childhood family of producer *Adam Goldberg*. As the show gained in popularity, it was clear that one of the main stars was the fictitious sister *Erica Goldberg*, played by *Hayley Orrantia*. Anyone that has watched the show knows that not only is Hayley a talented actress but an incredible singer as well! This Thursday Hayley performs at *Backstage at the Meyer*, and she took some time out of her busy schedule to talk with *Wisconsin Music*: 
 
-![image](/_assets/img/interview_hayley1.jpg)
+![image](../../_assets/img/interview_hayley1.jpg)
 
 **WM:**
 What came first for you, singing or acting?
@@ -28,7 +28,7 @@ In the Goldbergs you're immersed in 80's pop culture. Did the show turn you onto
 
 > **HO:** Actually there was an episode where we were performing a *Rush* song, and we loved it! That was a lot of fun playing 'Tom Sawyer'. But even before that I love *Whitney Houston*. 'The Greatest Love Of All' is one of my favorite songs. 
 
-![image](/_assets/img/interview_hayley2.jpg)
+![image](../../_assets/img/interview_hayley2.jpg)
 
 **WM:**
 It's clear that some of your personal traits are written in for Erica on the show. How much input are you given with the character's arc?
@@ -57,4 +57,4 @@ Anything to say to your fans from Wisconsin?
 
 [Website](https://www.hayleyorrantia.com/)
 
-![image](/_assets/img/interview_hayley5.jpg)
+![image](../../_assets/img/interview_hayley5.jpg)

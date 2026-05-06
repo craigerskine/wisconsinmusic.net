@@ -6,7 +6,7 @@ date: 2018-01-11
 
 While the violin is closely associated with country music, it's rarely linked to Rock & Roll. The Femmes of Rock are looking to change that with their high-powered violin covers of classic rock music. Founder and arranger Nina DiGregorio took some time to talk to Wisconsin Music about their upcoming performance at the Weidner Center:
 
-![image](/_assets/img/interview_for2.jpg)
+![image](../../_assets/img/interview_for2.jpg)
 
 **WM:**
 When did you first start playing violin?
@@ -28,7 +28,7 @@ What are some of your influences?
 
 > **ND:** It all started with 1950's music. My father and his friend were really into that music and I remember him taking my mom to sock-hops when I was little. Jerry Lee Lewis, Little Richard, and Elvis. I was able to go to Graceland about two years ago and it was a spine-tingling, chilling emotional experience. I was a big fan of the Drifters from the early sixties. The song 'Up On The Roof' was my favorite song for probably the first ten years of my life. But that kind of music was going on in my house, and I just loved it. I listened to that for a long time until I hit about eleven years old and I discovered the Beatles. That changed everything for me. Obviously I am too young to have ever seen the Beatles themselves, but there was a cover group that came to the college my mom worked at. She took me and my best friend to the show and we were just completely in awe of the music. It started a ten year love affair with the Beatles where I collected every album, every book that I could read about them, every movie that they made. It was super Beatlemania all over again in the early nineties. From there I got turned onto Led Zeppelin, the Doors, Chicago, Pink Floyd, and AC/DC.
 
-![image](/_assets/img/interview_for3.jpg) 
+![image](../../_assets/img/interview_for3.jpg) 
 
 **WM:**
 How did you come up with the idea to marry your violin playing with classic rock?
@@ -68,4 +68,4 @@ Well, hopefully our temperature stays decent for when you perform!
 * [Purchase Femmes of Rock / Lita Ford tickets](http://www.weidnercenter.com/events/femmes-of-rock/)
 * [Femmes of Rock Official Website](https://femmesofrock.com/)
 
-![image](/_assets/img/interview_for4.jpg)
+![image](../../_assets/img/interview_for4.jpg)

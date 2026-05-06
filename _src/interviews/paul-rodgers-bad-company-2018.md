@@ -8,7 +8,7 @@ You know the songs: "All Right Now", "Bad Company", "Feel Like Makin' Love", "Ro
 
 He's *Paul Rodgers*, and he's bringing his incredible vocals to the *Resch Center* this Saturday, for the *Bad Company* with *Cheap Trick* & *Femmes of Rock* show.
 
-![image](/_assets/img/interview_paul2.jpg)
+![image](../../_assets/img/interview_paul2.jpg)
 
 **WM:**
 It's an honor, Paul. Have you ever played in *Green Bay* before?
@@ -25,7 +25,7 @@ How old were you when you first started?
 
 > **PR:** I was in school actually ... around fourteen years old. I had a guitar, so that made me eligible to join the class band. We all got together in somebody's mum's kitchen and made a heck of a racket. And I stayed with it. Music got into my blood and it's been there since. I've been living, actually, a Rock n Roll Fantasy. I went down to London, I met up with *Paul Kossoff*, and we formed *Free*. We wrote "All Right Now" and it became an international hit. Suddenly we were famous. I went on to form *Bad Company* with *Mick Ralphs*, and it's been a wild ride.
 
-![image](/_assets/img/interview_paul3.jpg)
+![image](../../_assets/img/interview_paul3.jpg)
 
 **WM:**
 You've been around for decades and have a lot of great songs. Have you ever thought about making another *Bad Company* album of new material?
@@ -47,7 +47,7 @@ You've lasted longer than many marriages. What makes it work between the two of 
 
 > **PR:** I think it's musical. We have a musical compatibility. I like *Otis Redding* and he likes the drummer with *Otis Redding*. So we have that rapport, and it's very good. 
 
-![image](/_assets/img/interview_paul4.jpg)
+![image](../../_assets/img/interview_paul4.jpg)
 
 **WM:** You've had a lot of great hits, and on top of it you've had the privilege of singing and touring with *Queen*. How did that come about?
 
@@ -74,4 +74,4 @@ to the following Bad Company / Cheap Trick / Femmes of Rock ticket winners!
 
 We will be contacting you on how to claim your tickets! 
 
-![image](/_assets/img/interview_paul5.jpg)
+![image](../../_assets/img/interview_paul5.jpg)

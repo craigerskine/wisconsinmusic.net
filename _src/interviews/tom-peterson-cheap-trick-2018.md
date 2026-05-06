@@ -6,7 +6,7 @@ date: 2018-10-15
 
 A lot can change in forty years... but some things never do. Forty years ago I was able to meet *Cheap Trick*. The band was extremely nice. They didn't have to hang out and talk, take pictures and sign autographs… but they did. Later in life, I came to realize what I know now. *Cheap Trick* is an amazing band. And more importantly to me, they down-to-earth and great guys. Cheap Trick will be back in Green Bay, along with Bad Company and the Femmes of Rock, on October 27th at the Resch Center. Forty years after my first conversation with him, I was again able to chat with Cheap Trick bass guitarist *Tom Petersson*.
 
-![image](/_assets/img/interview_tom4.jpg)
+![image](../../_assets/img/interview_tom4.jpg)
 
 **WM:**
 You were the first rock star I ever met!
@@ -49,7 +49,7 @@ I read that in 1976 you played *Summerfest* and the fans confused you with *Pete
 
 > **TP:** Yes, from a great distance. Apparently back then anyone with somewhat long, curly hair can pass for *Peter Frampton*! (more laughs) I've never gotten that before, or since! We were standing backstage and the fans were about a hundred yards back behind a chain-link fence. I unwisely jumped up on top of a limo and started waving at the fans, and they thought it was *Frampton*. On the stage playing was *Bachman Turner Overdrive* (BTO) and I totally distracted the crowd from their show, which I did not mean to do. Their manager came over yelling, he wasn't too happy with me.
 
-![image](/_assets/img/interview_tom3.jpg)
+![image](../../_assets/img/interview_tom3.jpg)
 
 **WM:**
 Earlier this year *Cheap Trick* released a new song called "Summer Looks Good On You." Will you be playing that at the *Green Bay* show?
@@ -104,4 +104,4 @@ You can if you want, I'm sure the crowd won't mind! And I can guarantee you'll h
 
 Submit answers to *wisconsin_music@hotmail.com*. Next week on *October 24th* we will feature an exclusive interview with *Bad Company* lead singer *Paul Rodgers*, and will announce the winners! 
 
-![image](/_assets/img/interview_tom6.jpg)
+![image](../../_assets/img/interview_tom6.jpg)

@@ -8,7 +8,7 @@ You cannot turn on the radio during the holidays without hearing a song by Trans
 
 Guitarist and musical director Al Pitrelli has been with them from the beginning, and recently sat down with Wisconsin Music to discuss his Christmas Past, Present and Future: 
 
-![image](/_assets/img/interview_2016-12-02-al-pitrelli-01.jpg)
+![image](../../_assets/img/interview_2016-12-02-al-pitrelli-01.jpg)
 
 **WM:**
 How have the shows been so far on this tour?

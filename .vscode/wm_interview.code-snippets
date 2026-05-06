@@ -10,7 +10,7 @@
       "",
       "$0Put your content here, save this file into the `/_site/interviews/` folder as `some-name-year.md`, all lowercase, NO spaces, and replace `year` with the current year of the interview.",
       "",
-      "![image](/_assets/img/interview_example-image.jpg)",
+      "![image](../../_assets/img/interview_example-image.jpg)",
 	 	],
 	 	"description": "Wisconsin Music - Interview"
 	}

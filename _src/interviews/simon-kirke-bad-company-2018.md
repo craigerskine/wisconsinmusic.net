@@ -8,7 +8,7 @@ Songs you hear on the radio... sing in the car... kick off your favorite playlis
 
 Still touring and playing music, Simon - and the rest of *Bad Company* - will play *Green Bay* on October 27th at *the Resch Center*. This show, with *Femmes of Rock* and *Cheap Trick*, is one of only four shows *Band Company* will play in the US this year! 
 
-![image](/_assets/img/interview_simon1.jpg)
+![image](../../_assets/img/interview_simon1.jpg)
 
 **WM:**
 You've been in two extremely successful and well-known bands. Does it ever get old playing certain songs over the years?
@@ -38,7 +38,7 @@ There are multiple streaming services that play many of your songs. What your vi
 **WM:**
 Your music has been on pretty much every format: vinyl, reel-to-reel, 8-track, cassette, CD, digital files. What's your favorite format? 
 
-![image](/_assets/img/interview_simon2.jpg)
+![image](../../_assets/img/interview_simon2.jpg)
 
 > **SK:** We've been on everything but the old vinyl 78 format, we're not THAT old! (laughs) That's actually a very good question. Every generation has their own music format. When I was a teenager it was 45s (records). When I was a little older it was cassettes. I loved cassettes. You could throw twenty or thirty of them in your suitcase and off you'd go. CD's came along and you could put a hundred of them in your backpack. And now streaming. As I'm talking to you I could order the latest *Paul McCartney* album and it will be on my iPhone in sixty seconds. It's unbelievable! But my favorite is a sentimental choice of cassettes.
 
@@ -70,4 +70,4 @@ That's awesome! Some of the organizations that will benefit from your *Green Bay
 * [Purchase Femmes of Rock / Cheap Trick / Bad Company](https://ev3.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS%3APMI%3ARC18%3ABC1027%3A&linkID=pmi&_ga=2.24874872.390719034.1536689239-510396394.1536689239)
 * [Bad Company Official Website](http://www.badcompany.com/)
 
-![image](/_assets/img/interview_simon3.jpg)
+![image](../../_assets/img/interview_simon3.jpg)

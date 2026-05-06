@@ -4,7 +4,7 @@ img: /_assets/img/interview_2016-08-01-tl-01.jpg
 date: 2016-08-01
 ---
 
-![image](/_assets/img/interview_2016-08-01-tl-01.jpg)
+![image](../../_assets/img/interview_2016-08-01-tl-01.jpg)
 
 Some artists refuse to be pigeon-holed, and Troy Luccketta is one of those artists. Most know him as the drummer for classic hard rock band Tesla. But he also has his hands in country, classical, and Christian music. Wisconsin Music catches up with this busy entertainer:
 
@@ -58,7 +58,7 @@ Tell me a little bit about your wife Linda. How did you two meet?
 
 > **TL:** We met through my childhood friend Rick that was married to her sister Debbie. About 4 years ago, Debbie had gotten sick with colon cancer. I was playing a benefit to help out, and her sister Lisa was there. We became friends and have been together since. She was trying to help her sister out and I was trying to help my friend out. Her sister didn't want to do the chemo or radiation, she was trying to treat it holistically. My friend was trying to put the information together but he couldn't get the information fast enough or understand where we needed to be. That being said, we started a foundation called [A Song 4 Wellness](http://www.songforwellness.org/) in memory of her sister. It's an awareness site about pH, alkalinity, nutrition, and how disease cannot survive in an alkaline body. I believe if we would have had that information at the time that she would be alive today. He sacrifice, just like Jesus on the cross, has given us purpose. So my wife works on that website every day... she just finished up a section on proteins. We've learned a lot. We are very humbled by everything that we do. So we're just sharing what we're learning and whatever we can share to make people aware of what we are doing and give them information to make healthier decisions.
 
-![image](/_assets/img/interview_2016-08-01-tl-02.jpg)
+![image](../../_assets/img/interview_2016-08-01-tl-02.jpg)
 
 **WM:**
 Let's talk a little bit about some of your side projects, starting with Whitford St. Holmes.
@@ -95,4 +95,4 @@ There was previously a Tesla box set in the works. What ever happened with that?
 * [Tesla](http://www.teslatheband.com/)
 * [Song for Wellness](http://www.songforwellness.org/)
 
-![image](/_assets/img/interview_2016-08-01-tl-03.jpg)
+![image](../../_assets/img/interview_2016-08-01-tl-03.jpg)

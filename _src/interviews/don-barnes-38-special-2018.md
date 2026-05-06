@@ -6,7 +6,7 @@ date: 2018-03-03
 
 Songs are written, recorded and released. Many are heard and forgotten. Others strike a chord and stay around awhile. Then there are the rare few that become a part of our culture, and *38 Special* songs are deep in the American fabric. Songs such as 'Caught Up In You' and 'Hold On Loosely' are known by young and old alike. Lead singer *Don Barnes* takes a break from recording and touring to discuss their upcoming concert in *Green Bay* with *REO Speedwagon*...
 
-![image](/_assets/img/interview_don2.jpg)
+![image](../../_assets/img/interview_don2.jpg)
 
 **WM:**
 Great to talk with you Don. We are really excited for your show at the *Resch Center* on March 11. 
@@ -23,7 +23,7 @@ Let's warp back to 1987. You leave *38 Special* and start working on a solo reco
 
 > **DB:** When I left the band our record label, A&M, offered me a solo album. So they financed the whole thing and let me hand-pick the best players in the world. It was all finished and mixed. Even the cover art was being worked on when A&M was sold to PolyGram. The new staff coming in didn't have any emotional investment so the record was shelfed. It was stuck in limbo and through the years, I was always trying to get the rights to it. Finally, it was released through an Australian label called Melodic Rock Records last year. Surprisingly, it's been getting five stars on Amazon and other outlets across the world! But it really was a true long lost record. 
 
-![image](/_assets/img/interview_don3.jpg)
+![image](../../_assets/img/interview_don3.jpg)
 
 **WM:**
 Did A&M still have the masters tapes for it? 
@@ -43,4 +43,4 @@ What's on the horizon for *38 Special*?
 * [Purchase Warrant / 38 Special / REO Speedwagon tickets](http://www.reschcenter.com/events/detail/reo-speedwagon-1)
 * [The Official 38 Special Website](http://38special.com/)
 
-![image](/_assets/img/interview_don4.jpg)
+![image](../../_assets/img/interview_don4.jpg)

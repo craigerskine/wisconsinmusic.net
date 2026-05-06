@@ -6,7 +6,7 @@ date: 2018-02-15
 
 Warrant was one of the last hard rock bands to make it big before the grunge movement of the early '90s. Some even accused Warrant of being the straw that broke the back of hard rock, with tongue-in-cheek hits like 'Cherry Pie.' As other bands called it quits, Warrant fought their way through the '90s, consistently releasing albums and touring.
 
-![image](/_assets/img/interview_erik2.jpg)
+![image](../../_assets/img/interview_erik2.jpg)
 
 In the 2000s, hard rock came back into the limelight. A fairy tale ending, yet with a tragic twist for the Down Boys. Lead singer Jani Lane could not shake his personal demons and passed away in 2011. For many bands, losing a main songwriter and singer is the kiss of death. Warrant soldered on. Today, they are still putting out strong albums, like last year's _Louder Harder Faster_, and hitting the stage hard. Founding member and guitar player Erik Turner talks to Wisconsin Music about his life in music and Warrant's upcoming show at the Resch Center on March 11th with REO Speedwagon and 38 Special: 
 
@@ -20,7 +20,7 @@ That's a long time with a guitar in your hands! What was the first concert you e
 
 > **ET:** My step-brother took me to see Elton John at the Universal Amphitheater in Los Angeles. It was a great concert even though I was a hard rock fan. It was a magical night. Years later we got to open for Elton at a big festival in Switzerland. 
 
-![image](/_assets/img/interview_erik1.jpg)
+![image](../../_assets/img/interview_erik1.jpg)
 
 **WM:**
 What was the first rock concert you attended?
@@ -52,7 +52,7 @@ You're not a bad songwriter yourself!
 
 > **ET:** Not like Jani, but thank you.
 
-![image](/_assets/img/interview_erik3.jpg)
+![image](../../_assets/img/interview_erik3.jpg)
 
 **WM:**
 Twenty years ago you self-released _Demos For Diehards_, featuring songs you co-wrote with Tommy Thayer (Kiss, Black 'N Blue). 
@@ -87,4 +87,4 @@ We're looking forward to your concert at the Resch Center on March 11th!
 * [Purchase Warrant / 38 Special / REO Speedwagon tickets](http://www.reschcenter.com/events/detail/reo-speedwagon-1)
 * [The Official Warrant Website](https://warrantrocks.com)
 
-![image](/_assets/img/interview_erik4.jpg)
+![image](../../_assets/img/interview_erik4.jpg)
