@@ -13,13 +13,13 @@
     <meta property="og:title" content="{%- if title -%}{{ title }} - {{ site.meta.title }}{%- else -%}{{ site.meta.title }} - {{ site.meta.description }}{%- endif -%}" />
     <meta property="og:description" content="{{ site.meta.description }}" />
     <meta property="og:url" content="{{ site.meta.url }}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.meta.url }}{% if img %}{{ img }}{% else %}/apple-touch-icon.png{% endif %}" />
+    <meta property="og:image" content="{{ site.meta.url }}{% if img %}{{ img }}{% else %}{{ '/' | url }}apple-touch-icon.png{% endif %}" />
     <meta property="og:image:width" content="152" />
     <meta property="og:image:height" content="152" />
     <meta name="theme-color" content="#111111" />
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="{{ '/' | url }}favicon.ico" />
+    <link rel="apple-touch-icon" href="{{ '/' | url }}apple-touch-icon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -33,7 +33,7 @@
     <div class="app w-full min-h-screen flex-(& col)">
       <header class="py-8 w-full bg-gradient-to-b from-black/75 flex-none{% if page.url == '/' %} bg-gray-600/20{% endif %}">
         <div class="mx-auto px-4 max-w-screen-lg md:(flex-(& row) items-center)">
-          <a href="/" class="group flex-(& none) items-center justify-center md:(space-x-3)">
+          <a href="{{ '/' | url }}" class="group flex-(& none) items-center justify-center md:(space-x-3)">
             {%- include "components/_logo.njk" %}
             <span class="text-white font-thin uppercase hidden md:(block)">
               <b class="font-black">{{ site.meta.title.substring(0, 9) }}</b>
@@ -44,7 +44,7 @@
             <ul class="w-full flex items-center justify-center md:(w-auto space-x-10)">
               {%- for item in collections.all | eleventyNavigation %}
               <li class="w-1/3 md:(w-auto)">
-                <a href="{{ item.url }}" class="nav group pb-1 flex-(& col) items-center relative motion-safe:(transition) hover:text-white md:items-end {% if item.url == page.url or item.url in page.url %} active text-white{% endif %}"
+                <a href="{{ item.url | url }}" class="nav group pb-1 flex-(& col) items-center relative motion-safe:(transition) hover:text-white md:items-end {% if item.url == page.url or item.url in page.url %} active text-white{% endif %}"
                   {%- if item.url == page.url or item.url in page.url %} aria-current="page"{%- endif %}
                 >
                   <i class="text-xs not-italic opacity-50">{{ item.title }}</i>
@@ -63,7 +63,7 @@
           <h1 class="m-auto p-4 max-w-4xl text-[calc(1.5vw+1.5vh)] text-center leading-normal font-bold">
             <b class="text-[calc(2vw+2vh)] text-gray-200 block uppercase">{{ site.home.mast.lead }}</b>
             {%- for item in collections.all | eleventyNavigation %}
-            <a href="{{ item.url }}" class="group text-white lowercase inline-block relative motion-safe:(transition) hover:(text-blue-400)">
+            <a href="{{ item.url | url }}" class="group text-white lowercase inline-block relative motion-safe:(transition) hover:(text-blue-400)">
               {{ item.key }}
               <b class="w-full h-[2px] bg-current absolute bottom-0 left-0 opacity-0 transform scale-0 motion-safe:(transition) group-hover:(opacity-100 scale-100)" aria-hidden="true"></b>
             </a>
@@ -83,7 +83,7 @@
 
       {% macro footerLink(title='Title',sub='Sub',url='#') %}
       <li class="py-3 leading-tight">
-        <a href="{{ url }}" class="group text-gray-200 motion-safe:(transition) hover:(text-blue-400)">
+        <a href="{{ url | url }}" class="group text-gray-200 motion-safe:(transition) hover:(text-blue-400)">
           <small class="pb-1 text-xs block opacity-80">{{ sub }}</small>
           <strong>{{ title }}</strong>
         </a>
@@ -93,12 +93,12 @@
         <div class="mx-auto px-4 max-w-screen-lg">
           <div class="pb-8 text-center space-y-5 md:(pb-12 text-start flex items-start justify-between gap-5 space-y-0)">
             <nav class="flex-none">
-              <a href="/" class="group inline-flex">
+              <a href="{{ '/' | url }}" class="group inline-flex">
                 {%- include "components/_logo.njk" %}
               </a>
               <ul class="py-5 text-2xl flex justify-center gap-5 md:(justify-start)">
                 {%- for item in site.social %}
-                <li><a {{ '@click.prevent' | safe if item.url === '#' }} href="{{ item.url }}" class="motion-safe:(transition) hover:(text-{{ item.color }}-400)"><iconify-icon icon="{{ item.ico }}" inline="false" noobserver></iconify-icon></a></li>
+                <li><a {{ '@click.prevent' | safe if item.url === '#' }} href="{{ item.url | url }}" class="motion-safe:(transition) hover:(text-{{ item.color }}-400)"><iconify-icon icon="{{ item.ico }}" inline="false" noobserver></iconify-icon></a></li>
                 {%- endfor %}
               </ul>
             </nav>
@@ -134,13 +134,13 @@
         </div>
       </footer>
 
-      <img src="{% if img %}{{ img }}{% else %}/_assets/img/_mast-placeholder.jpg{% endif %}" class="w-screen h-screen object-cover object-center opacity-25 fixed inset-0 z-[-1]" alt="{{ title }} background" />
+      <img src="{% if img %}{{ img | url }}{% else %}{{ '/' | url }}_assets/img/_mast-placeholder.jpg{% endif %}" class="w-screen h-screen object-cover object-center opacity-25 fixed inset-0 z-[-1]" alt="{{ title }} background" />
       <div aria-hidden="true" class="bg-black/25 fixed inset-0 z-[-1] backdrop-blur-md"><div class="bg-grid bg-fixed absolute inset-0"></div></div>
 
     </div>
 
     {% renderblock 'js' %}
-    <script src="/_assets/js/_app.js?v={% bust %}"></script>
+    <script src="{{ '/' | url }}_assets/js/_app.js?v={% bust %}"></script>
 
   </body>
 
